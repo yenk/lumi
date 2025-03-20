@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Yen Kha
-avatar_image: "user-full.png"
+avatar_image: "yenkha_swizzy.png"
 # Username (this should match the folder name)
 authors:
 - admin

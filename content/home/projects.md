@@ -46,9 +46,9 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
   columns = "2"
 
   # Toggle between the various page layout types.
-  #   1 = List
-  #   3 = Card
-  #   5 = Showcase
+    # 1 = List
+    # 3 = Card
+    # 5 = Showcase
   view = 3
 
   # For Showcase view, flip alternate rows?
