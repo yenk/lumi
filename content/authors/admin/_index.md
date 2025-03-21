@@ -7,7 +7,9 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "https://sourcethemes.com/academic/docs/install/"
+# - url : "https://sourcethemes.com/academic/docs/install/"
+# - url: "YenKhaResume.pdf"
+- url: "static/img/YenKhaResume.pdf"
   label : "Download Resume"
 
 # Is this the primary user of the site?
@@ -16,7 +18,7 @@ superuser: true
 
 # Role/position
 # role: Professor of Artificial Intelligence
-role: Software Engineer
+# role: Expert Data and Software Engineer and Leader
 
 # Organizations/Affiliations
 organizations:
@@ -79,7 +81,10 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+#### Data & Software Engineer | AI Enthusiast
+Passionate about innovation and AI. I'm an experimental thinker with a strong foundation in Applied Statistics and Mathematics. With experience in startups and Fortune 500 companies (Nike, Marsh McLennan), I drive data solutions that deliver core business value.
 
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
+#### Expertise
+* AI, Machine Learning, LLM
+* Data Science & Analytics
+* Cloud Computing & DevOps

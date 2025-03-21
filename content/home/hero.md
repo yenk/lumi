@@ -8,7 +8,7 @@ weight = 10  # Order that this section will appear.
 title = "Yen Kha"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "humanoid.png"
+hero_media = "walle.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -33,9 +33,10 @@ hero_media = "humanoid.png"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[btn]
-  url = "authors/admin/"  # set to projects here
-  label = "Learn more"
+# [btn]
+#   # url = "content/projects/"  # set to projects here
+#   url = "authors/admin/"
+#   label = "Learn more"
 
 ## TODO ##
 # [btn_alt]
@@ -43,6 +44,6 @@ hero_media = "humanoid.png"
 #   label = "Contact me"
 
 +++
-## **Solving Complex Problems, Simply**
+# **Solving Complex Problems, Simply**
 
-Harnessing AI-driven innovation to tackle real-world problems
+**Harnessing AI-driven innovation to tackle real-world problems**

@@ -2,34 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on YenKha</title>
-    <link>http://localhost:41377/authors/</link>
+    <link>http://localhost:35693/authors/</link>
     <description>Recent content in Authors on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:41377/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:35693/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:41377/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <link>http://localhost:35693/authors/admin/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:41377/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
-&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.&lt;/p&gt;
+      <guid>http://localhost:35693/authors/admin/</guid>
+      <description>&lt;h4 id=&#34;data--software-engineer--ai-enthusiast&#34;&gt;Data &amp;amp; Software Engineer | AI Enthusiast&lt;/h4&gt;
+&lt;p&gt;Passionate about innovation and AI. I&amp;rsquo;m an experimental thinker with a strong foundation in Applied Statistics and Mathematics. With experience in startups and Fortune 500 companies (Nike, Marsh McLennan), I drive data solutions that deliver core business value.&lt;/p&gt;
+&lt;h4 id=&#34;expertise&#34;&gt;Expertise&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;AI, Machine Learning, LLM&lt;/li&gt;
+&lt;li&gt;Data Science &amp;amp; Analytics&lt;/li&gt;
+&lt;li&gt;Cloud Computing &amp;amp; DevOps&lt;/li&gt;
+&lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Robert Ford</title>
-      <link>http://localhost:41377/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:41377/authors/robert-ford/</guid>
-      <description></description>
     </item>
     
   </channel>

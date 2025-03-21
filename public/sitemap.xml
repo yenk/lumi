@@ -2,144 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:41377/courses/example/example1/</loc>
+    <loc>http://localhost:35693/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example.1/example3/</loc>
+    <loc>http://localhost:35693/courses/example.1/example3/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example.2/example3/</loc>
+    <loc>http://localhost:35693/courses/example.2/example3/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example.1/</loc>
+    <loc>http://localhost:35693/courses/example.1/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example.2/</loc>
+    <loc>http://localhost:35693/courses/example.2/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example/</loc>
+    <loc>http://localhost:35693/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example.2/example4/</loc>
+    <loc>http://localhost:35693/courses/example.2/example4/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example/example2/</loc>
+    <loc>http://localhost:35693/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/example.1/example4/</loc>
+    <loc>http://localhost:35693/courses/example.1/example4/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/talk/qualitative/</loc>
+    <loc>http://localhost:35693/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/talk/</loc>
+    <loc>http://localhost:35693/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/talk/synthesizing/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/talk/coding/</loc>
+    <loc>http://localhost:35693/talk/j4all/</loc>
     <lastmod>2025-04-08T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/courses/</loc>
+    <loc>http://localhost:35693/authors/admin/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35693/publication/conference-paper/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35693/authors/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35693/publication/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35693/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/authors/admin/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/publication_types/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/authors/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/tags/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/tags/</loc>
-    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/post/jupyter/</loc>
+    <loc>http://localhost:35693/post/jupyter/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/post/</loc>
+    <loc>http://localhost:35693/post/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/slides/</loc>
+    <loc>http://localhost:35693/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/slides/example/</loc>
+    <loc>http://localhost:35693/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/project/artificial-intelligence/</loc>
+    <loc>http://localhost:35693/project/artificial-intelligence/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/project/deep-learning/</loc>
+    <loc>http://localhost:35693/project/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/tags/deep-learning/</loc>
+    <loc>http://localhost:35693/tags/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/tags/demo/</loc>
+    <loc>http://localhost:35693/tags/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/project/external-project/</loc>
+    <loc>http://localhost:35693/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/tags/human/</loc>
+    <loc>http://localhost:35693/tags/human/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/project/internal-project/</loc>
+    <loc>http://localhost:35693/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/project/</loc>
+    <loc>http://localhost:35693/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/project/robotics/</loc>
+    <loc>http://localhost:35693/project/robotics/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/tags/robotics/</loc>
+    <loc>http://localhost:35693/tags/robotics/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/project/skin-cancer-ai/</loc>
+    <loc>http://localhost:35693/project/skin-cancer-ai/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/post/snail/</loc>
+    <loc>http://localhost:35693/tags/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/tags/academia/</loc>
+    <loc>http://localhost:35693/post/snail/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/post/getting-started/</loc>
+    <loc>http://localhost:35693/tags/academia/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/publication_types/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:35693/post/getting-started/</loc>
+    <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:41377/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:35693/categories/</loc>
   </url><url>
-    <loc>http://localhost:41377/authors/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/publication_types/1/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:41377/categories/</loc>
+    <loc>http://localhost:35693/publication_types/</loc>
   </url>
 </urlset>

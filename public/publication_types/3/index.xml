@@ -2,23 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 on YenKha</title>
-    <link>http://localhost:41377/publication_types/3/</link>
+    <link>http://localhost:45757/publication_types/3/</link>
     <description>Recent content in 3 on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
-    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:41377/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:45757/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>An example preprint / working paper</title>
-      <link>http://localhost:41377/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <title>Alternative Indicators: A New AI for Law</title>
+      <link>http://localhost:45757/publication/conference-paper/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:41377/publication/preprint/</guid>
+      <guid>http://localhost:45757/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo academia&amp;rsquo;s Markdown slides feature.
   &lt;/div&gt;

@@ -1,19 +1,20 @@
 ---
-title: Synthesizing Qualitative Data
-event: academia Theme Conference
-event_url: https://example.org
-location: London, United Kingdom
-summary: An example talk using academia's Markdown slides feature.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+# title: Coding and Analyzing Qualitative Data
+title: Access to Justice for All, leveraging AI Modeling
+event: CodeX FutureLaw 2025
+event_url: https://conferences.law.stanford.edu/futurelaw/
+# location: Palo Alto, Stanford University
+summary: Empowering Access to Justice for All by leveraging cutting-edge Legal AI, I'm architecting a scalable platform that converges transformer-based LLMs, MLOps, and cloud-native technologies. 
+abstract: "Revolutionizing Access to Justice: Harnessing the power of Large Language Models (LLMs) and cloud-native technologies, I'm developing a scalable Legal AI platform that bridges the justice gap. By democratizing AI-driven legal innovation, this solution enables equitable access to justice, empowering marginalized communities and fostering a more just society."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
+date: "2025-04-08T13:00:00Z"
 date_end: "2030-06-01T15:00:00Z"
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2025-03-15T00:00:00Z"
 
 authors: []
 tags: []
@@ -54,7 +55,7 @@ projects:
 math: true
 ---
 
-{{% alert note %}}
+<!-- {{% alert note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /alert %}}
 
@@ -64,4 +65,4 @@ Slides can be added in a few ways:
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
 
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. -->

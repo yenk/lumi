@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on YenKha</title>
-    <link>http://localhost:41377/categories/</link>
+    <link>http://localhost:35693/categories/</link>
     <description>Recent content in Categories on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     
-	    <atom:link href="http://localhost:41377/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:35693/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
