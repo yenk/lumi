@@ -37,7 +37,6 @@ date_format = "Jan 2006"
   date_start = "2018-09-01"
   date_end = ""
   description = "Spearheaded a female leadership committee, driving impactful initiatives that empowered women in tech and STEM fields. Organized seminars that attracted over 200 attendees, fostering a community of women in tech and providing a platform for knowledge sharing and networking.  Curated 10+ innovative demos, showcasing cutting-edge technologies and inspiring women to pursue careers in STEM." 
-  
 
 [[item]]
   organization = "Black Girls Code Hackathon Sponsored by Nike"
@@ -48,7 +47,6 @@ date_format = "Jan 2006"
   date_start = "2020-09-01"
   date_end = ""
   description = "Mentored 7 young Black female students from 5th grade to high school students, providing guidance and technical expertise to develop the first mobile app in Scratch, promoting STEM education and bridging the diversity gap in tech. Inspired and equipped the next generation of women in STEM, fostering a passion for technology and innovation." 
-
 
 [[item]]
   organization = "Nike"

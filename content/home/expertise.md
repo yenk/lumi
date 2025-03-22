@@ -17,7 +17,7 @@ title = "EXPERTISE"
 [[feature]]
   # icon = "chart-line"
   # icon_pack = "fas"
-  name = "Backend Engineering <br/> 🚜🛠️🏗"
+  name = "Backend Engineering <br/> 🚜`🛠️🏗"
   # parcent = "90%"
   
 [[feature]]
