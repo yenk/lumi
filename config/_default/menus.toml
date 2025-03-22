@@ -14,45 +14,50 @@
   weight = 20
 
 [[main]]
-  name = "Expositions"
-  url = "#expositions"
+  name = "Posts"
+  url = "#posts"
   weight = 30
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Publications"
+  url = "#publications"
   weight = 40
+
+[[main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 50
 
 [[main]]
   name = "Courses"
   url = "courses/"
-  weight = 50
-
-[[main]]
-  name = "Life"
-  url = "#"
-  hasChildren = true
-
-[[main]]
-  parent = "Life"
-  name = "Artwork"
-  url = "#"
-
-[[main]]
-  parent = "Life"
-  name = "Baking"
-  url = "#!"
-
-[[main]]
-  parent = "Life"
-  name = "Books"
-  url = "#!"
-
-
-[[main]]
-  name = "Contact"
-  url = "#contact"
   weight = 60
+
+# [[main]]
+#   name = "Life"
+#   url = "#"
+#   hasChildren = true
+
+# [[main]]
+#   parent = "Life"
+#   name = "Artwork"
+#   url = "#"
+
+# [[main]]
+#   parent = "Life"
+#   name = "Baking"
+#   url = "#!"
+
+# [[main]]
+#   parent = "Life"
+#   name = "Books"
+#   url = "#!"
+
+
+# [[main]]
+#   name = "Contact"
+#   url = "#contact"
+#   weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

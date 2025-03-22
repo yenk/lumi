@@ -1,9 +1,11 @@
 ---
-title: "Alternative Indicators: A New AI for Law"
+title: "Alternative Indicators: A New AI for Law (Pending publication)"
 authors:
 - admin
 date: "2025-01-01T00:00:00Z"
 doi: ""
+event: CodeX FutureLaw 2025
+event_url: https://conferences.law.stanford.edu/futurelaw/
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-03-20T00:00:00Z"
@@ -18,10 +20,11 @@ publishDate: "2025-03-20T00:00:00Z"
 publication: Pending publication (ICAIL 2025)
 # publication_short: In *STC*
 
-# abstract: Contributed to technical research, engineering insights, and LLM model evaluation.
+abstract: I am a proud **Acknowledged Contributor** to [ICAIL 2025](https://sites.northwestern.edu/icail2025/). where I lent my expertise in technical research, engineering insights, and LLM model evaluation.
 
 # Summary. An optional shortened abstract.
-summary: Using Variational Free Energy to Measure the Outcome Viability of Legal Cases.
+summary: Using Variational Free Energy to Measure the Outcome Viability of Legal Cases. 
+# Speaker, CodeX FutureLaw, Stanford University, April 2025
 
 # tags:
 # - Source Themes
