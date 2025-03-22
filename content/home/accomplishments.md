@@ -2,10 +2,10 @@
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Accomplishments"
 # subtitle = "PREVIOUS ASSOCIATIONS THAT HELPED TO GATHER EXPERIENCE"
 
 # Date format
@@ -19,43 +19,55 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "LLM x Law Hackathon - CodeX"
+  organization_url = "https://law.stanford.edu/event/llm-x-law-hackathon-stanford-5/"
+  title = "Building Legal AI Platform"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
+  certificate_url = ""
+  date_start = "2025-04-05"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = "Launching the first LLM AI platform competition to 10+ top Venture Capitalists to transform access to justice."
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "Nike"
+  organization_url = ""
+  title = "Elevating Women in Tech (eWiT) as a Founder and Chair"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-09-01"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  description = "Spearheaded a female leadership committee, driving impactful initiatives that empowered women in tech and STEM fields. Organized seminars that attracted over 200 attendees, fostering a community of women in tech and providing a platform for knowledge sharing and networking.  Curated 10+ innovative demos, showcasing cutting-edge technologies and inspiring women to pursue careers in STEM." 
   
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
-  
-[[item]]
-  organization = "RDX"
-  organization_url = "https://www.rdx.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
 
+[[item]]
+  organization = "Black Girls Code Hackathon Sponsored by Nike"
+  organization_url = "https://www.wearebgc.org/"
+  title = "Empowering Future Tech Leaders as a Mentor"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-09-01"
+  date_end = ""
+  description = "Mentored 7 young Black female students from 5th grade to high school students, providing guidance and technical expertise to develop the first mobile app in Scratch, promoting STEM education and bridging the diversity gap in tech. Inspired and equipped the next generation of women in STEM, fostering a passion for technology and innovation." 
+
+
+[[item]]
+  organization = "Nike"
+  organization_url = ""
+  title = "Transformed Global Engineering Leadership Through Strategic and Cultural Impact as a Mentor"
+  url = ""
+  certificate_url = ""
+  date_start = "2019-07-01"
+  date_end = ""
+  description = "As part of the Global and Core Engineering Committee, I provided visionary leadership and mentorship to 450+ software engineers, fostering a culture of inclusivity, diversity, and belonging across Nike's global tech communities. Amplified tech advocacy efforts, promoting equal access to opportunities, resources, and support for engineers from all backgrounds, fueling innovation and growth. Additionally, I also mentored 10+ key tech Subject Matter Experts (SMEs), yielding a 33% success rate of deployed tech ideas that aligned with Nike's tech strategy."
+
+[[item]]
+  organization = "Nike"
+  organization_url = ""
+  title = "Transforming API Standards and Platforms as a Core Contributor"
+  url = ""
+  certificate_url = ""
+  date_start = "2021-07-01"
+  date_end = ""
+  description = "As part of the API Engineering Committee, I challenged the status quo to redesign the 5+ years of API standards used to enhance the functionality of Nike's core API best practices. Leading development effort migrating API platform hosted in Atlassian's Jira and Confluence to Docker and GitHub pages. This impacted several thousands of software engineers across the company by enforcing API best practices."
 +++
+

@@ -2,29 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on YenKha</title>
-    <link>http://localhost:34861/authors/</link>
+    <link>http://localhost:43513/authors/</link>
     <description>Recent content in Authors on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:34861/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:43513/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:34861/authors/admin/</link>
+      <link>http://localhost:43513/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:34861/authors/admin/</guid>
-      <description>&lt;h4 id=&#34;data--software-engineer--ai-enthusiast&#34;&gt;Data &amp;amp; Software Engineer | AI Enthusiast&lt;/h4&gt;
-&lt;p&gt;Passionate about innovation and AI. I&amp;rsquo;m an experimental thinker with a strong foundation in Applied Statistics and Mathematics. With experience in startups and Fortune 500 companies (Nike, Marsh McLennan), I drive data solutions that deliver core business value.&lt;/p&gt;
-&lt;h4 id=&#34;expertise&#34;&gt;Expertise&lt;/h4&gt;
+      <guid>http://localhost:43513/authors/admin/</guid>
+      <description>&lt;h3 id=&#34;transformational-leader-in-ai-ml--backend-platform-engineering&#34;&gt;Transformational Leader in AI, ML &amp;amp; Backend Platform Engineering&lt;/h3&gt;
+&lt;p&gt;As a visionary data and software engineering leader, I drive technical innovation and strategic growth by architecting scalable data platforms, architectures, and pipelines that fuel AI/ML advancements. With expertise in software and backend engineering, I craft efficient, reliable, and future-proof solutions that accelerate AI-powered software product development.&lt;/p&gt;
+&lt;p&gt;At the forefront of AI exploration, I&amp;rsquo;m passionate about pushing the boundaries of Large Language Models (LLMs), language understanding, generation, and human-AI collaboration, empowering teams to pioneer groundbreaking AI innovations.&lt;/p&gt;
+&lt;h4 id=&#34;key-expertise&#34;&gt;Key Expertise:&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;AI, Machine Learning, LLM&lt;/li&gt;
-&lt;li&gt;Data Science &amp;amp; Analytics&lt;/li&gt;
-&lt;li&gt;Cloud Computing &amp;amp; DevOps&lt;/li&gt;
+&lt;li&gt;Data Architecture: Designing scalable data architectures for AI/ML workloads&lt;/li&gt;
+&lt;li&gt;Data Ingestion: Building efficient data pipelines using Apache Spark and Airflow&lt;/li&gt;
+&lt;li&gt;Data Warehousing: Implementing data warehouses using Amazon Redshift, Google BigQuery&lt;/li&gt;
+&lt;li&gt;ETL: Developing ETL pipelines using Python, Spark, and SQL&lt;/li&gt;
+&lt;li&gt;Data Lake: Designing and implementing data lakes using Databricks, Amazon S3, Azure Blob and Google Cloud Storage&lt;/li&gt;
+&lt;li&gt;AI &amp;amp; ML: Large Language Models (LLMs), Natural Language Processing (NLP)&lt;/li&gt;
+&lt;li&gt;Programming &amp;amp; Data: Go, PostgreSQL, Python, Spark, Terraform, Terragrunt&lt;/li&gt;
+&lt;li&gt;Cloud &amp;amp; DevOps: Airflow, AWS, Azure, Datadog, Docker, GCP, Vault, Jfrog Artifactory, Kubernetes, Rancher&lt;/li&gt;
+&lt;li&gt;APIs &amp;amp; Integrations: FastAPI, GraphQL, HuggingFace, Kafka, LLM&lt;/li&gt;
+&lt;li&gt;Leadership: Technical Leadership, Team Management&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
