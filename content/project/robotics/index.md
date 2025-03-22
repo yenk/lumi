@@ -1,6 +1,6 @@
 ---
 title: Robotics
-summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
+# summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
 tags:
 - Robotics
 date: "2016-04-27T00:00:00Z"

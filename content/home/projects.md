@@ -26,16 +26,16 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Legal AI"
+    tag = "AI"
   
   [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+    name = "Large Language Models"
+    tag = "LLMs, AI"
   
   [[content.filter_button]]
-    name = "Human"
-    tag = "human"
+    name = "Computational Genomics"
+    tag = "genetics"
   
   [[content.filter_button]]
     name = "Robotics"

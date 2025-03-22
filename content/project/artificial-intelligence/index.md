@@ -1,6 +1,6 @@
 ---
 title: Artificial Intelligence
-summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
+# summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius.
 tags:
 - Demo
 - robotics
