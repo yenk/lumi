@@ -2,116 +2,116 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:42265/courses/example/example1/</loc>
+    <loc>http://localhost:34861/courses/example/example1/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example.1/example3/</loc>
+    <loc>http://localhost:34861/courses/example.1/example3/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example.2/example3/</loc>
+    <loc>http://localhost:34861/courses/example.2/example3/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example.1/</loc>
+    <loc>http://localhost:34861/courses/example.1/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example.2/</loc>
+    <loc>http://localhost:34861/courses/example.2/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example/</loc>
+    <loc>http://localhost:34861/courses/example/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example.2/example4/</loc>
+    <loc>http://localhost:34861/courses/example.2/example4/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example/example2/</loc>
+    <loc>http://localhost:34861/courses/example/example2/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/courses/example.1/example4/</loc>
+    <loc>http://localhost:34861/courses/example.1/example4/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/</loc>
+    <loc>http://localhost:34861/</loc>
+    <lastmod>2025-03-22T08:53:44-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:34861/talk/j4all/</loc>
     <lastmod>2025-03-22T08:16:22-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/talk/j4all/</loc>
-    <lastmod>2025-03-22T08:16:22-06:00</lastmod>
+    <loc>http://localhost:34861/publication/conference-paper/</loc>
+    <lastmod>2025-03-22T08:53:44-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/publication/conference-paper/</loc>
-    <lastmod>2025-03-22T08:16:22-06:00</lastmod>
+    <loc>http://localhost:34861/authors/</loc>
+    <lastmod>2025-03-22T08:53:44-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/authors/</loc>
-    <lastmod>2025-03-22T08:22:10-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:42265/post/jupyter/</loc>
+    <loc>http://localhost:34861/post/jupyter/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/slides/</loc>
+    <loc>http://localhost:34861/slides/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/slides/example/</loc>
+    <loc>http://localhost:34861/slides/example/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/project/artificial-intelligence/</loc>
+    <loc>http://localhost:34861/project/artificial-intelligence/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/project/deep-learning/</loc>
+    <loc>http://localhost:34861/project/deep-learning/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/tags/deep-learning/</loc>
+    <loc>http://localhost:34861/tags/deep-learning/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/tags/demo/</loc>
+    <loc>http://localhost:34861/tags/demo/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/project/external-project/</loc>
+    <loc>http://localhost:34861/project/external-project/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/tags/human/</loc>
+    <loc>http://localhost:34861/tags/human/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/project/internal-project/</loc>
+    <loc>http://localhost:34861/project/internal-project/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/project/</loc>
+    <loc>http://localhost:34861/project/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/project/robotics/</loc>
+    <loc>http://localhost:34861/project/robotics/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/tags/robotics/</loc>
+    <loc>http://localhost:34861/tags/robotics/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/project/skin-cancer-ai/</loc>
+    <loc>http://localhost:34861/project/skin-cancer-ai/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/tags/</loc>
+    <loc>http://localhost:34861/tags/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/post/snail/</loc>
+    <loc>http://localhost:34861/post/snail/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/tags/academia/</loc>
+    <loc>http://localhost:34861/tags/academia/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/post/getting-started/</loc>
+    <loc>http://localhost:34861/post/getting-started/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/authors/admin/</loc>
-    <lastmod>2025-03-22T08:22:10-06:00</lastmod>
+    <loc>http://localhost:34861/authors/admin/</loc>
+    <lastmod>2025-03-22T08:53:44-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/categories/</loc>
+    <loc>http://localhost:34861/categories/</loc>
   </url><url>
-    <loc>http://localhost:42265/courses/</loc>
+    <loc>http://localhost:34861/courses/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/post/</loc>
+    <loc>http://localhost:34861/post/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/publication_types/</loc>
+    <loc>http://localhost:34861/publication_types/</loc>
   </url><url>
-    <loc>http://localhost:42265/publication/</loc>
+    <loc>http://localhost:34861/publication/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:42265/talk/</loc>
+    <loc>http://localhost:34861/talk/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url>
 </urlset>

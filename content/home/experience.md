@@ -24,11 +24,7 @@ date_format = "Jan 2006"
   date_start = "2024-11-01"
   date_end = ""
   description = """
-
-* ​Co-founding a podcast by amplifying women in tech, and industry leaders to drive inclusivity and innovation.
-* Democratizing reusable open source patterns and best practices for 3,000+ contributors and 800+ global
-organizations in the new Gitlab framework.
-* Building a web platform for podcast content delivery, expanding InnerSource Commons' presence.
+  I'm pioneering a path that converges inclusivity and innovation, driving transformative initiatives that elevate underrepresented voices and foster collaboration. This includes co-founding a podcast showcasing women in tech and industry leaders, contributing to Gitlab's open-source framework, and developing a web platform for podcast content delivery, collectively amplifying diverse perspectives and advancing innovation.
   """
 
 [[experience]]
@@ -38,12 +34,8 @@ organizations in the new Gitlab framework.
   date_start = "2024-08-01"
   date_end = ""
   description = """
-  
-  * Architecting a scalable Legal AI platform using LLMs, MLOps, FastAPI, and cloud-native technologies
-  (Akamai, Docker, CI/CD) for Justice for All initiative.
-  * Driving the convergence of transformer-based LLMs, enabling the democratization of AI legal innovation
-  through tokenization and entity recognition.
-"""
+  I am leading the development of a scalable Legal AI platform, leveraging cutting-edge technologies like LLMs, MLOps, and cloud-native services. This platform, part of the Justice for All initiative, aims to democratize AI-driven legal innovation by harnessing transformer-based LLMs for advanced tokenization, entity recognition capabilities using NLP, advanced LLM modeling capabilities.
+  """
 
 [[experience]]
   title = "Lead Data Platform Engineer"
@@ -52,23 +44,7 @@ organizations in the new Gitlab framework.
   date_start = "2023-03-23"
   date_end = "2024-11-11"
   description = """
-  
-  * Founded and led a team of 6 data engineers to develop a scalable Enterprise Cloud Data Platform (ECDP),
-supporting 88,000+ users across AWS and Azure.
-* Developed Databricks Delta Lake MVP with Terraform automation, scaling to 500+ users in 2 months,
-enabling enterprise-wide data sharing.
-* Spearheaded enterprise-wide IaC implementation across Databricks, AWS and Azure, securing buy-ins from
-15+ leaders within 6 months, reducing infrastructure provisioning time by 100%.
-* Co-led the development of an in-house Generative AI data streaming tool, advancing data science
-capabilities of shared data for 2,000+ users.
-* Developed a backend platform to streamline API services for Okta, Databricks, and Vault using FastAPI and
-Kubernetes, reducing incident request oversight by 25% and resolution time from 2+ days to under 1 hour.
-* Drove strategic collaboration across cloud platforms, data science, and engineering teams, influencing
-leadership to advancing AI and ML innovation.
-* Built a scalable CI/CD deployment with Terraform and Terragrunt, achieving 99.9% deployment success and
-50% faster deployment times.
-* Established MMC's first global data governance framework, transforming data security and privacy
-standards across 10+ subsidiaries in under 4 months.
+  As a leader, I spearheaded the development of a scalable Enterprise Cloud Data Platform, supporting over 88,000 users across AWS and Azure. I drove innovation through strategic collaborations, advancing AI and ML capabilities, and implementing enterprise-wide solutions, including infrastructure as code, data governance, and CI/CD deployments. My efforts resulted in significant improvements, including reduced infrastructure provisioning time, faster deployment times, and enhanced data security and privacy standards.
   """
 
 [[experience]]
@@ -78,14 +54,7 @@ standards across 10+ subsidiaries in under 4 months.
   date_start = "2021-08-22"
   date_end = "2022-07-01"
   description = """
-
-* Spearheaded data engineering efforts, leading the migration and implementation of a scalable Airflow data
-platform, increasing data throughput by 75%.
-* Designed and built scalable ETL data pipelines, integrating 5+ APIs from platforms like Stitch, Stripe, and
-Segment, reducing ingestion latency by 50%.
-* Streamlined data processing by 40% through strategic refactoring of 3+ complex AWS Batch & Lambda
-jobs, improving overall data transformation efficiency.
-* Mentored junior and QA engineers, driving improvements in code quality and team performance.
+  As a data engineering leader, I drive impact for data science and AI modeling software products by designing and implementing scalable data platforms, architectures, and pipelines. I successfully migrated to a scalable Airflow data platform, increasing data throughput by 75%, and built efficient ETL pipelines integrating multiple APIs, reducing ingestion latency by 50%. By optimizing data processing by 40% through strategic refactoring of AWS Batch and Lambda jobs, I enable data science teams to focus on building high-impact AI models. Through close collaboration with cross-functional teams, I translate data requirements into actionable engineering solutions, accelerating the development of AI-powered software products such as [Smart Brevity AI-Powered Writing Tool](https://www.axioshq.com/smart-brevity).
 """
 
 [[experience]]
@@ -95,17 +64,7 @@ jobs, improving overall data transformation efficiency.
   date_start = "2018-06-18"
   date_end = "2021-08-21"
   description = """
-
-* Collaborated on AWS cloud migration to scale AI solutions, enabling enterprise-wide analytical capabilities
-across 5 data squads.
-* Spearheaded Python 3 migration for 3,000+ lines of legacy code, achieving 75% performance gain and
-driving over $25 billion in revenue growth for Retail and Wholesale.
-* Streamlined data ingestion from 5+ backend apps, boosting data quality by refactoring 80% of Python
-utilities into reusable modules.
-* Transformed 20+ batch processes from on-premises, cutting latency by 60% and accelerating business
-intelligence for wholesale and retail pricing.
-* Centralized data repositories for Nike Data Foundation, implementing dozens of dynamic data pipelines and
-reducing development effort by 50%.
+  I drove key initiatives to scale AI solutions and enhance data capabilities, including a successful AWS cloud migration that enabled enterprise-wide analytical capabilities across 5 data squads. I spearheaded a Python 3 migration, achieving a 75% performance gain and contributing to over $25 billion in revenue growth. Additionally, I streamlined data ingestion, transformed batch processes, and centralized data repositories, resulting in significant improvements in data quality, latency, and development efficiency. These efforts had a profound impact on several key data analytics teams, empowering them to drive business intelligence, retail and wholesale pricing strategies, and data-driven decision-making across the organization.
 """
 
 [[experience]]
@@ -115,11 +74,6 @@ reducing development effort by 50%.
   date_start = "2017-09-16"
   date_end = "2018-05-15"
   description = """
-
-* Transformed engineering team dynamics by fostering collaboration, resulting in a 30% surge in productivity.
-* Designed and delivered customized ML solutions for 6 clients, incorporating key ML modeling features,
-driving a 20% increase in business value.
-* Implemented web scraping API features from Google, Twitter, and Quandl to increase clients analytic
-consumptions.
+  I drove transformative impact through technical leadership and innovative solutions. By fostering a collaborative team culture, I boosted engineering productivity by 30%. Additionally, I designed and delivered customized ML solutions for 6 clients, driving a 20% increase in business value. I also developed web scraping API features from leading sources like Google, Twitter, and Quandl, enhancing clients' analytic capabilities and consumption.
   """
 +++
