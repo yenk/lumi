@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=45833&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=42265&amp;path=livereload" data-no-instant defer></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +32,7 @@
   <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:45833/tags/academia/">
+  <link rel="alternate" hreflang="en-us" href="http://localhost:42265/tags/academia/">
 
   
 
@@ -42,7 +42,7 @@
   
   
   
-  <meta name="theme-color" content="#ff3860">
+  <meta name="theme-color" content="#EF525B">
   
 
   
@@ -85,7 +85,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academia.min.876f1f21f40c199d10eff0a3fa1c0754.css">
+  <link rel="stylesheet" href="/css/academia.min.6bdd51d27175a429e7dd377bed800db9.css">
 
   
 
@@ -100,7 +100,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://localhost:45833/tags/academia/">
+  <link rel="canonical" href="http://localhost:42265/tags/academia/">
 
   
   
@@ -112,10 +112,10 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="YenKha">
-  <meta property="og:url" content="http://localhost:45833/tags/academia/">
+  <meta property="og:url" content="http://localhost:42265/tags/academia/">
   <meta property="og:title" content="Academia | YenKha">
-  <meta property="og:description" content=""><meta property="og:image" content="http://localhost:45833/img/icon-192.png">
-  <meta property="twitter:image" content="http://localhost:45833/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content=""><meta property="og:image" content="http://localhost:42265/img/icon-192.png">
+  <meta property="twitter:image" content="http://localhost:42265/img/icon-192.png"><meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2016-04-20T00:00:00&#43;00:00">
   
@@ -151,7 +151,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
         
       </div>
 
@@ -171,7 +172,7 @@
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
     
-    <a class="navbar-brand" href="/">YenKha</a>
+    <a class="navbar-brand" href="/"><img src="/img/favicon.png" alt="YenKha"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span><i class="fas fa-bars"></i></span>
       </button>
@@ -378,6 +379,10 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
@@ -494,18 +499,52 @@
     
 
     
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
 
     
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -513,12 +552,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academia.min.6c2ba2801d406881b3c2277043cedd76.js"></script>
+    <script src="/js/academia.min.8d21580ddffa7e5a3f65db85bca47827.js"></script>
 
     
 
@@ -535,7 +574,7 @@
       <div class="col-md-6 mb-4 mb-md-0">
         
         <p class="mb-0">
-          Copyright © 2025 &middot; 
+          Copyright YenKha © 2025 &middot; 
           Powered by
           <a href="https://gethugothemes.com" target="_blank" rel="noopener">Gethugothemes</a>
         </p>
@@ -556,20 +595,7 @@
           
           
           <li class="list-inline-item">
-            <a href="https://twitter.com/Twitter" target="_blank" rel="noopener" title="DM Me"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-          </li>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <li class="list-inline-item">
-            <a href="skype:echo123?call"  title="Skype Me"><i class="fab fa-skype" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/yenkha/" target="_blank" rel="noopener" title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
           </li>
           
           
@@ -584,22 +610,7 @@
           
           
           <li class="list-inline-item">
-            <a href="https://keybase.io/" target="_blank" rel="noopener" title="Chat on Keybase"><i class="fab fa-keybase" aria-hidden="true"></i></a>
-          </li>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <li class="list-inline-item">
-            <a href="https://discourse.gohugo.io" target="_blank" rel="noopener" title="Discuss on Forum"><i class="fas fa-comments" aria-hidden="true"></i></a>
+            <a href="https://github.com/yenk/" target="_blank" rel="noopener" title="Github"><i class="fab fa-github" aria-hidden="true"></i></a>
           </li>
           
         </ul>

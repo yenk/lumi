@@ -4,8 +4,6 @@ authors:
 - admin
 date: "2025-01-01T00:00:00Z"
 doi: ""
-event: CodeX FutureLaw 2025
-event_url: https://conferences.law.stanford.edu/futurelaw/
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-03-20T00:00:00Z"
@@ -24,15 +22,14 @@ abstract: I am a proud **Acknowledged Contributor** to [ICAIL 2025](https://site
 
 # Summary. An optional shortened abstract.
 summary: Using Variational Free Energy to Measure the Outcome Viability of Legal Cases. 
-# Speaker, CodeX FutureLaw, Stanford University, April 2025
 
 # tags:
 # - Source Themes
 # featured: true
 
 links:
-#- name: Custom Link
-#  url: https://www.ical.ac/
+# - name: ICAIL 2025
+#  url: https://sites.northwestern.edu/icail2025/
 # url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
 # url_code: '#'
 # url_dataset: '#'

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on YenKha</title>
-    <link>http://localhost:45833/authors/</link>
+    <link>http://localhost:42265/authors/</link>
     <description>Recent content in Authors on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; {year}</copyright>
+    <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:45833/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:42265/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:45833/authors/admin/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <link>http://localhost:42265/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:45833/authors/admin/</guid>
+      <guid>http://localhost:42265/authors/admin/</guid>
       <description>&lt;h4 id=&#34;data--software-engineer--ai-enthusiast&#34;&gt;Data &amp;amp; Software Engineer | AI Enthusiast&lt;/h4&gt;
 &lt;p&gt;Passionate about innovation and AI. I&amp;rsquo;m an experimental thinker with a strong foundation in Applied Statistics and Mathematics. With experience in startups and Fortune 500 companies (Nike, Marsh McLennan), I drive data solutions that deliver core business value.&lt;/p&gt;
 &lt;h4 id=&#34;expertise&#34;&gt;Expertise&lt;/h4&gt;
