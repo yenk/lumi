@@ -24,7 +24,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+# bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Should the user's education and interests be displayed?
 display_education: true
@@ -42,7 +42,7 @@ education:
   courses:
   - course: Bachelor of Science in Applied Statistics and Mathematics, and Psychology (Dual Degree)
     institution: University of New Mexico
-    # year: 2012
+    year: ""
 
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -70,9 +70,9 @@ email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+# user_groups:
+# - Researchers
+# - Visitors
 ---
 ### Transformational Leader in AI, ML & Backend Platform Engineering
 As a visionary data and software engineering leader, I drive technical innovation and strategic growth by architecting scalable data platforms, architectures, and pipelines that fuel AI/ML advancements. With expertise in software and backend engineering, I craft efficient, reliable, and future-proof solutions that accelerate AI-powered software product development.
@@ -82,9 +82,8 @@ At the forefront of AI exploration, I'm passionate about pushing the boundaries 
 #### Key Expertise:
 * Data Architecture: Designing scalable data architectures for AI/ML workloads
 * Data Ingestion: Building efficient data pipelines using Apache Spark and Airflow
-* Data Warehousing: Implementing data warehouses using Amazon Redshift, Google BigQuery
 * ETL: Developing ETL pipelines using Python, Spark, and SQL
-* Data Lake: Designing and implementing data lakes using Databricks, Amazon S3, Azure Blob and Google Cloud Storage
+* Data Lake: Designing and implementing data lakes using Databricks, Medallion architecture, Azure Blob and Google Cloud Storage
 * AI & ML: Large Language Models (LLMs), Natural Language Processing (NLP)
 * Programming & Data: Go, PostgreSQL, Python, Spark, Terraform, Terragrunt
 * Cloud & DevOps: Airflow, AWS, Azure, Datadog, Docker, GCP, Vault, Jfrog Artifactory, Kubernetes, Rancher

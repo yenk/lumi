@@ -53,12 +53,12 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Nike"
   organization_url = ""
-  title = "Transformed Global Engineering Leadership Through Strategic and Cultural Impact as a Mentor"
+  title = "Transformed Global Engineering Leadership Through Strategic and Cultural Impact as a Technical Leader"
   url = ""
   certificate_url = ""
   date_start = "2019-07-01"
   date_end = ""
-  description = "As part of the Global and Core Engineering Committee, I provided visionary leadership and mentorship to 450+ software engineers, fostering a culture of inclusivity, diversity, and belonging across Nike's global tech communities. Amplified tech advocacy efforts, promoting equal access to opportunities, resources, and support for engineers from all backgrounds, fueling innovation and growth. Additionally, I also mentored 10+ key tech Subject Matter Experts (SMEs), yielding a 33% success rate of deployed tech ideas that aligned with Nike's tech strategy."
+  description = "As part of the Global and Core Engineering Committees, I provided visionary leadership and mentorship to 450+ software engineers, fostering a culture of inclusivity, diversity, and belonging across Nike's global tech communities. Amplified tech advocacy efforts, promoting equal access to opportunities, resources, and support for engineers from all backgrounds, fueling innovation and growth. Additionally, I also mentored 10+ key tech Subject Matter Experts (SMEs), yielding a 33% success rate of deployed tech ideas that aligned with Nike's tech strategy."
 
 [[item]]
   organization = "Nike"
