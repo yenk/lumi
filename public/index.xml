@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YenKha</title>
-    <link>http://localhost:1313/</link>
+    <link>https://yenkha.com/</link>
     <description>Recent content on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
-    <lastBuildDate>Tue, 08 Apr 2025 13:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://yenkha.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/</link>
+      <link>https://yenkha.com/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/slides/</guid>
+      <guid>https://yenkha.com/slides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://yenkha.com/project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/project/</guid>
+      <guid>https://yenkha.com/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>http://localhost:1313/courses/</link>
+      <link>https://yenkha.com/courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/courses/</guid>
+      <guid>https://yenkha.com/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://yenkha.com/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/</guid>
+      <guid>https://yenkha.com/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <link>https://yenkha.com/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/publication/</guid>
+      <guid>https://yenkha.com/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://localhost:1313/talk/</link>
+      <link>https://yenkha.com/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/talk/</guid>
+      <guid>https://yenkha.com/talk/</guid>
       <description></description>
     </item>
     

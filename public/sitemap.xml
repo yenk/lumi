@@ -2,116 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/courses/example/example1/</loc>
+    <loc>https://yenkha.com/courses/example/example1/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example.1/example3/</loc>
+    <loc>https://yenkha.com/courses/example.1/example3/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example.2/example3/</loc>
+    <loc>https://yenkha.com/courses/example.2/example3/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example.1/</loc>
+    <loc>https://yenkha.com/courses/example.1/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example.2/</loc>
+    <loc>https://yenkha.com/courses/example.2/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example/</loc>
+    <loc>https://yenkha.com/courses/example/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example.2/example4/</loc>
+    <loc>https://yenkha.com/courses/example.2/example4/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example/example2/</loc>
+    <loc>https://yenkha.com/courses/example/example2/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/example.1/example4/</loc>
+    <loc>https://yenkha.com/courses/example.1/example4/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-22T08:53:44-06:00</lastmod>
+    <loc>https://yenkha.com/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/talk/j4all/</loc>
+    <loc>https://yenkha.com/talk/j4all/</loc>
     <lastmod>2025-03-22T08:16:22-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publication/conference-paper/</loc>
+    <loc>https://yenkha.com/publication/conference-paper/</loc>
     <lastmod>2025-03-22T08:53:44-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>https://yenkha.com/authors/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/slides/</loc>
+    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/slides/example/</loc>
+    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/project/artificial-intelligence/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/tags/deep-learning/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/tags/demo/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/project/legal_ai/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/project/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/project/robotics/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/tags/robotics/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/tags/</loc>
+    <lastmod>2025-03-22T13:41:45-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/categories/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/categories/data-engineering/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/post/pythonic-stuff/data_wrangling/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/post/pythonic-stuff/data_structures/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/tags/data-wrangling/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/post/pythonic-stuff/oop/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/categories/python/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/tags/python/</loc>
+    <lastmod>2025-03-22T13:34:20-06:00</lastmod>
+  </url><url>
+    <loc>https://yenkha.com/authors/admin/</loc>
     <lastmod>2025-03-22T12:18:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/jupyter/</loc>
+    <loc>https://yenkha.com/courses/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/slides/</loc>
+    <loc>https://yenkha.com/post/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/slides/example/</loc>
+    <loc>https://yenkha.com/publication_types/</loc>
+  </url><url>
+    <loc>https://yenkha.com/publication/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/project/artificial-intelligence/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/project/deep-learning/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/demo/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/project/external-project/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/human/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/project/internal-project/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/project/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/project/robotics/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/robotics/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/project/skin-cancer-ai/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/snail/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/academia/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/getting-started/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/admin/</loc>
-    <lastmod>2025-03-22T12:18:41-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/courses/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
-  </url><url>
-    <loc>http://localhost:1313/publication/</loc>
-    <lastmod>2025-03-20T12:15:00-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/talk/</loc>
+    <loc>https://yenkha.com/talk/</loc>
     <lastmod>2025-03-20T12:15:00-06:00</lastmod>
   </url>
 </urlset>

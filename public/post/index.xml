@@ -2,439 +2,350 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on YenKha</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://yenkha.com/post/</link>
     <description>Recent content in Posts on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     
-	    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://yenkha.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Display Jupyter Notebooks with academia</title>
-      <link>http://localhost:1313/post/jupyter/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Data Restructuring and Formatting</title>
+      <link>https://yenkha.com/post/pythonic-stuff/data_wrangling/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/jupyter/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; IPython.core.display &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Image
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Image(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/jupyter/academia_0_0.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Welcome to academia!&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to academia!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
-&lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;create-a-new-blog-post-as-usual&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your academia website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new  --kind post post/my-post
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
-&lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;jupyter notebook
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;.
+      <guid>https://yenkha.com/post/pythonic-stuff/data_wrangling/</guid>
+      <description>&lt;h2 id=&#34;functional-programming-using-functional-tools&#34;&gt;functional programming using functional tools&lt;/h2&gt;
+&lt;p&gt;Functional tools are essentially the fundamental components of functional programming, that leverages these built-in functions. What&amp;rsquo;s really neat about them is that these functions not only optimize how you passed in iterables with time-complexity efficiency and memory, but also fewer lines of code to write!&lt;/p&gt;
+&lt;!-- ### map --&gt;
+&lt;p&gt;We can use map() to iterate and transform all the elements in the iterable without using the &lt;code&gt;for loop&lt;/code&gt;. map() is also written in C, so it&amp;rsquo;s highly optimized. With a &lt;code&gt;for loop&lt;/code&gt;, the entire list is in your system memory, while the map() outputs each item based on demand during execution. So instead of an entire list living the local system&amp;rsquo;s memory, only one item is dumped into your memory.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;syntax&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;map&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;, iterable&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;n1, n2...nth&lt;span style=&#34;color:#f92672&#34;&gt;])&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;uses-cases&#34;&gt;uses cases&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;numbers &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;2, 3, 8, 2&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Copy the contents of Untitled.md and append it to index.md:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat Untitled.md | tee -a index.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;def map_numbers&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;numbers&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; numbers**3
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Remove the temporary file:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm Untitled.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
-&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;writing content with academia&lt;/a&gt;.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;triple &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; list&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;map&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;map_numbers, numbers&lt;span style=&#34;color:#f92672&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;gt;&amp;gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;8, 27, 512, 8&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Another common use case is using lambda in map() function.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;!-- ### reduce --&gt;
+&lt;h3 id=&#34;filter&#34;&gt;filter&lt;/h3&gt;
+&lt;p&gt;Without being said, filter() is literally to &lt;code&gt;filter&lt;/code&gt; an item in an iterable to generate a new iterable.&lt;/p&gt;
+&lt;h2 id=&#34;json&#34;&gt;json&lt;/h2&gt;
+&lt;p&gt;Working with JSON can be painful sometimes, particularly when the object you&amp;rsquo;re trying to serialize is really massive or contains many nested objects within it and trying to untangle them into flat objects is a challenge. As a data engineer, I&amp;rsquo;v come acrossed those pain points in the past and have used many different Python libraries to parse JSON data sets ansoud the usual standard one is &lt;a href=&#34;https://docs.python.org/3/library/json.html&#34;&gt;&lt;code&gt;json&lt;/code&gt;&lt;/a&gt; package. The other ones are &lt;a href=&#34;https://mpython.readthedocs.io/en/master/library/pythonStd/ujson.html&#34;&gt;ujson&lt;/a&gt;, and &lt;a href=&#34;https://medium.com/geekculture/python-orjson-cb046b47ab8c&#34;&gt;orjson&lt;/a&gt;, which I won&amp;rsquo;t go into details, but you can read up on those links here.  Essentially orjson supports dataclasses, datetimes, and numpy pretty well; and ujson   allows quick conversion between Python objects and JSON data formats; if that&amp;rsquo;s what you&amp;rsquo;re specifically targeting at over speed, type hint or schema validation features then those are the JSON libraries you may want to check it out as well or do a quick comparison and see which fits what you&amp;rsquo;re trying to do.&lt;/p&gt;
+&lt;h3 id=&#34;json-util&#34;&gt;json util&lt;/h3&gt;
+&lt;p&gt;Data format conversion from csv to json would typically only makes sense when you&amp;rsquo;re dealing with large volume of data that needs to scale for more complex data manipulation or transformation projects like a data science project that involves complex visualization tasks, while requiring those viz to be optimally performant during high I/O usages. And as you go along, you might need to revise some large data content to adjust to what you&amp;rsquo;re trying to visualize or manipulate as a result for better readability and interopabiity. This makes JSON very versatile to operate as it&amp;rsquo;s heterogenously friendly across various platforms and languages, because it&amp;rsquo;s a universal data format. Lastly, it&amp;rsquo;s much easier to devise different data structures like a hashmap or an array to improve the I/O and performance of read/write.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s dive into a sample yet small csv dataset where n = 1248 with 33 observations; and for the sake of this demo, my focus is  to showcase snippets of json optimization and manipulation approaches you can take!&lt;/p&gt;
+&lt;p&gt;Here is the &lt;a href=&#34;https://zenodo.org/record/5646557#.Y9awZ9JKiEJ&#34;&gt;data source&lt;/a&gt; that I used that you can further tinker with if you so inspired to! :)&lt;/p&gt;
+&lt;p&gt;This code should run like a charm! You can test it yourself by copying the code directly and execute, once you downloaded the data source linked above. Let me know if you find some other cool ways to serialize and optimize JSON format.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll continuing extending this codebase here, so check back soon!&lt;/p&gt;
+&lt;!-- ```py
+# --8&lt;-- &#34;docs/code/data_parsing.py&#34;
+``` --&gt;
+&lt;p&gt;&lt;img src=&#34;../assets/images/data3.png&#34; alt=&#34;data&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;msgspec&#34;&gt;msgspec&lt;/h2&gt;
+&lt;p&gt;One interesting package I&amp;rsquo;ve recently discovered that can help speed up the serialization and schematic evolution and validation capabilities is &lt;a href=&#34;https://pypi.org/project/msgspec/&#34;&gt;msgspec&lt;/a&gt;. It&amp;rsquo;s integrated with &lt;a href=&#34;https://docs.python.org/3/library/typing.html&#34;&gt;type annotations&lt;/a&gt;.  It supports both JSON and MessagePack, which is a faster alternative format to standard JSON modules.  If you’re parsing JSON files on a regular basis, and you’re hitting performance or memory issues, consider checking out this out!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s fast and friendly&lt;/li&gt;
+&lt;li&gt;Encode messages as JSON or MessagePack&lt;/li&gt;
+&lt;li&gt;Decode messages back into Python types&lt;/li&gt;
+&lt;li&gt;It allows you to define schemas for the records you’re parsing&lt;/li&gt;
+&lt;li&gt;It lets you define the fields you only care about&lt;/li&gt;
+&lt;li&gt;Better validation messages - it lets you prescribed error type hint messages than just a 500 error message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One point I want to raise is msgspec also supports &lt;strong&gt;schema evolution and validation&lt;/strong&gt; I find this super useful, especially when data is constantly evolving, they&amp;rsquo;re nice features to have when your client data like an API suddenly decides to make changes to one of its params that you&amp;rsquo;re unaware of, or it evolves, msgspec will automatically adjust to those changes between clients in your schema within your systems in the server end. And if one of those records has a missing a field within those changes made, or value has a wrong data type, like an int instead of a str, this parser will yell at ya to check it out before the parser continues processing! With standard JSON libraries, schema validation has to happen separately.&lt;/p&gt;
+&lt;h3 id=&#34;install&#34;&gt;install&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install msgspec
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;usage-from-doc&#34;&gt;usage from doc&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; typing &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; Optional, Set
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; msgspec
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;User&lt;/span&gt;(msgspec&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Struct):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;A new type describing a User&amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    name: str
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    groups: Set[str] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; set()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    email: Optional[str] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Encode messages as JSON or MessagePack.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; alice &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; User(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;alice&amp;#34;&lt;/span&gt;, groups&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;{&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;admin&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;engineering&amp;#34;&lt;/span&gt;})
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; alice
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# User(name=&amp;#39;alice&amp;#39;, groups={&amp;#34;admin&amp;#34;, &amp;#34;engineering&amp;#34;}, email=None)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; msg &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; msgspec&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;encode(alice)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; msg
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# b&amp;#39;{&amp;#34;name&amp;#34;:&amp;#34;alice&amp;#34;,&amp;#34;groups&amp;#34;:[&amp;#34;admin&amp;#34;,&amp;#34;engineering&amp;#34;],&amp;#34;email&amp;#34;:null}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Decode messages back into Python types (with optional schema validation).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; msgspec&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decode(msg, type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;User)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# User(name=&amp;#39;alice&amp;#39;, groups={&amp;#34;admin&amp;#34;, &amp;#34;engineering&amp;#34;}, email=None)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; msgspec&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;json&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decode(&lt;span style=&#34;color:#e6db74&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{&amp;#34;name&amp;#34;:&amp;#34;bob&amp;#34;,&amp;#34;groups&amp;#34;:[123]}&amp;#39;&lt;/span&gt;, type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;User)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Traceback (most recent call last):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  File &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;stdin&amp;gt;&amp;#34;&lt;/span&gt;, line &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;module&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;msgspec&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ValidationError: Expected &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;`&lt;/span&gt;str&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;`&lt;/span&gt;, got &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;`&lt;/span&gt;int&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; at &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;`$&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;groups[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;pydantic&#34;&gt;pydantic&lt;/h2&gt;
+&lt;p&gt;The first time I heard about pydantic was when I was listening to a python podcast &amp;ldquo;Talk Python To Me&amp;rdquo; hosted by Michael Kennedy. I was super intrigued when the creator of pydantic, Samuel Colvin, talked about what led him to this awesome creation. If you want to listen to all the cool stuff about &lt;a href=&#34;https://talkpython.fm/episodes/show/313/automate-your-data-exchange-with-pydantic&#34;&gt;pydantic generation&lt;/a&gt;, check out the podcast as it&amp;rsquo;s totally inspiring and worth your time. I promise! :)&lt;/p&gt;
+&lt;p&gt;In a nutshell, &lt;a href=&#34;https://docs.pydantic.dev/&#34;&gt;Pydantic&lt;/a&gt; is a data validation and parsing python module that takes advantage of type annotations by enforcing type hints at runtime. It&amp;rsquo;s essentially an abstraction layer like adding those sugar-free whipped frosting on a cake, where it doesn&amp;rsquo;t change the ingredients or logics used, but it will make the cake tastes extra yummy on the exterior. This frosting layer, will handle data parsing and validation features when it&amp;rsquo;s integrated into your codebase.&lt;/p&gt;
+&lt;h3 id=&#34;type-annotations&#34;&gt;type annotations&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.python.org/3/library/typing.html&#34;&gt;Type annotations&lt;/a&gt; or type hints that are essentially a defined set of values or functions that gets applied during runtime. These types can be a boolean, integer, or string, or any other type hint that you can think of that is defined during runtime as an expected return value.&lt;/p&gt;
+&lt;p&gt;Pydantic supports these &lt;a href=&#34;https://docs.pydantic.dev/usage/types/#standard-library-types&#34;&gt;standard library types&lt;/a&gt; including many &lt;a href=&#34;https://docs.pydantic.dev/usage/types/#pydantic-types&#34;&gt;common used types&lt;/a&gt;. I&amp;rsquo;m not going to go too deep into these topics here, but you can read up on yourself.&lt;/p&gt;
+&lt;p&gt;Also, for more detail explanations on type hints theory, which I find it pretty cool, check it out &lt;a href=&#34;https://peps.python.org/pep-0483/&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;install-1&#34;&gt;install&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;via pip install&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install pydantic
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;via source&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install git&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;git:&lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt;github&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;com&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;pydantic&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;pydantic&lt;span style=&#34;color:#a6e22e&#34;&gt;@main&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#egg=pydantic&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# or with extras that contains email and or file support dependencies&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install git&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;git:&lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt;github&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;com&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;pydantic&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;pydantic&lt;span style=&#34;color:#a6e22e&#34;&gt;@main&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#egg=pydantic[email,dotenv]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;usage&#34;&gt;usage&lt;/h3&gt;
 </description>
     </item>
     
     <item>
-      <title>A Study of Snail Behavior</title>
-      <link>http://localhost:1313/post/snail/</link>
+      <title>Data Structures &amp; Algorithms</title>
+      <link>https://yenkha.com/post/pythonic-stuff/data_structures/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/snail/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+      <guid>https://yenkha.com/post/pythonic-stuff/data_structures/</guid>
+      <description>&lt;h1 id=&#34;data-structures--algorithms&#34;&gt;data structures &amp;amp; algorithms&lt;/h1&gt;
+&lt;p&gt;In programing, data structures play such a pivotal role in everything we implement from data to software that you just can&amp;rsquo;t avoid not talking about it or learning about it as much as you can! Obviously, so relevant that students are often required to digest as a full semester college course idn CS. Let&amp;rsquo;s get to this now!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../assets/images/da.png&#34; alt=&#34;data structures&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;data-structures-and-sequence-types&#34;&gt;data structures and sequence types&lt;/h2&gt;
+&lt;p&gt;A quick intro on a few really important data structures that are being used across the board. I won&amp;rsquo;t dive into these as there are lots of great docs and tutorials everywhere.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/post/snail/#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/issues&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support development of academia:
+&lt;li&gt;
+&lt;p&gt;lists (mutable in &amp;ldquo;[]&amp;rdquo;) - super versatile and interoperable for various data types you&amp;rsquo;re trying to manipulate/parse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;dictionaries (aka hashmaps depending on which language you&amp;rsquo;re using) - be wary of hash collision, otherwise key:value pairs are awesome ways to optimize data retrieval.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sets (mutable in &amp;ldquo;()&amp;rdquo;) - great for identifying unique elements via data intersection, union, and any interoperations between datasets such as merging 2 joined lists without dups.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;tuples (immutable in &amp;ldquo;()&amp;rdquo;) - useful when you have a dataset that shouldn&amp;rsquo;t be changed, or use it like a dictionary except without a dict.key() format as a lookup value.  It&amp;rsquo;s also more memory efficient than a list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;str (immutable), unicode points to store textual data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;range (immutable), sequential numbers of generated executaion. Typically use to identify the total length (len) of an array to iterate on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;common-techniques--manipulations&#34;&gt;common techniques &amp;amp; manipulations&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;--&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs/code/data_structures.py&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;time-and-space-complexity-snapshot&#34;&gt;time and space complexity snapshot&lt;/h3&gt;
+&lt;p&gt;Algorithms are measured by time and space complexity. This denoted by Big O (Lambda) notation. Big O expresses runtime complexity, and how quickly algorithms grow relative and/or proportional to input size, n. It also represents the # of steps it takes to find a solution.&lt;/p&gt;
+&lt;p&gt;Time complexity is measured based on the function of the input size, which can affect the time it&amp;rsquo;ll take for the algorithm to execute efficiently.&lt;/p&gt;
+&lt;p&gt;Space complexity is measured by the memory the algorithm needs to run.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academia&#34;&gt;Decorate your laptop or journal with an academia sticker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://academia.threadless.com/&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(1) - constant. Input size is irrelevant.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Examples:
+&lt;ul&gt;
+&lt;li&gt;Finding an element in a hash table, where the value is not size dependent.&lt;/li&gt;
+&lt;li&gt;Finding a min value, where an array takes a constant time, only if element is sorted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Tips:
+&lt;ul&gt;
+&lt;li&gt;if an array is unsorted, it&amp;rsquo;s not constant time, as it needs to linearly scan over each element to find the min value.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academia/master/academia.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(n) - linear. This is semi-efficient, depending on how your algorithm is designed. It can be efficient if it&amp;rsquo;s a sorted array for instance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(logn) - logarithmic. The most efficient.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;li&gt;Example: Binary search tree is the perfect example that uses this time/space complexity.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
-&lt;p&gt;academia comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
-&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-1950s_hu_3df16cb4e000756d.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-apogee_hu_53f9a77eacf7101.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-coffee-playfair_hu_c0b733f1caf3eed7.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-dark_hu_ba52b5681ad91cc0.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-default_hu_ecc6375b0db16a75.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-forest_hu_30553c23ebdd8598.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-ocean_hu_f6427f7c95185d0f.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/snail/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/snail/gallery/theme-strawberry_hu_7fffc548209def07.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(n^2) - quadratic. The least effficient.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-admin&#34;&gt;academia Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-scripts&#34;&gt;academia Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of academia&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+&lt;li&gt;Examples:
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Finding duplicate values in a list, where each item has to be checked twice.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academia/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;O(2^n) - exponential. This is very inefficient. Runtime increases with size n as input.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;popular-data-structure-algorithms&#34;&gt;popular data structure algorithms&lt;/h2&gt;
+&lt;p&gt;Pretty much many coding interviews revolves around DSA on Linkedlist (doubly and singly), binary search tree (sorted and unsorted BST), stacks (LIFO), queues (FIFO with enqueues and dequeues), sorting algorithm, searching algorithm, merging algorithm, depth-first search algorithm (DFS), and bread-first search algorithm (BFS).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to dive deeper into each of one of these DSA&amp;rsquo;s. Some common algorithm implementations and example use cases, as well as ones I was asked during interviews at Google, and Meta.&lt;/p&gt;
+&lt;h3 id=&#34;linked-list-doubly-vs-singly&#34;&gt;linked list (doubly vs singly)&lt;/h3&gt;
+&lt;p&gt;In pretty much every interview questions, it involves some kind of linked lists questions. Single linked list, doubly linkedlist, hash table using linked lists if you have a hash collision, that is. And then there are questions about arrays vs linked lists, which is better data structure to solve a particular algorithm? What are the pros and cons between them? What are their time and space complexity representations?&lt;/p&gt;
+&lt;p&gt;In simple terms, linked lists are essentially blocks (nodes) that are chained, or connected into a sequential structure forming a list. At the beginning of the list, is the head node, connected by a pointer to the next node, and this gets repeated until the node reaches a null, then we know its at its tail end and stops.&lt;/p&gt;
+&lt;p&gt;We know that linked lists is a very popular data structure as it&amp;rsquo;s highly applicable in many real world examples. Let me provide some context here:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New York subway train stations (doubly linked lists)&lt;/li&gt;
+&lt;li&gt;Greyhound Amtrak (doubly linked lists)&lt;/li&gt;
+&lt;li&gt;One way flights with multiple connections (singly linked lists)&lt;/li&gt;
+&lt;li&gt;Cycling using the a single path trail, stopping in between peaks through the Switzerland&amp;rsquo;s Alps,
+until you reached Eiger. (singly linked lists)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;time-space-complexity&#34;&gt;time-space complexity&lt;/h4&gt;
+&lt;p&gt;Linkedlist has a time-space complexity of O(n). Every pointer has to loop through each node from the linkedlist&amp;rsquo; head node until it reaches to the tail node to get to a &lt;code&gt;null&lt;/code&gt; value.&lt;/p&gt;
+&lt;h4 id=&#34;basic-implementation&#34;&gt;basic implementation&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;--&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs/code/linked_list.py&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;common-leetcode-algorithms&#34;&gt;common leetcode algorithms&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# remove an element in a linked list using linked list methods&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;remove_element&lt;/span&gt;(nums, val):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Initialize the index variable to 0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Iterate through the array using a while loop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; len(nums):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Check if the current element is equal to the given value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; nums[i] &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; val:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# If equal, remove the element in-place using pop()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            nums&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pop(i)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#75715e&#34;&gt;# If not equal, increment the index to move to the next element&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            i &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Return the new length of the modified array&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; len(nums)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;sorted-bst&#34;&gt;sorted BST&lt;/h3&gt;
+&lt;p&gt;Binary search is a very popular tree data structure particularly when you have a ginormous dataset, and you want to find a element that matches a specific target (e.g. the min or max value in an array), and assuming is already sorted for this to work because it helps eliminate 1/2 of the search possibilities for comparison between left and right side of the array.&lt;/p&gt;
+&lt;p&gt;The array can be split up into two halves, in repeated 1/2 intervals between left and right, where the bisection is at midpoint to find the target.&lt;/p&gt;
+&lt;p&gt;The # of comparisons will be smaller as you iterate through the array and chop it off when it doesn&amp;rsquo;t match that target element between each 1/2 intervals during the search. It uses a &amp;ldquo;logarithm&amp;rdquo; search or &amp;ldquo;binary chop.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s fast at O(logn) because we know it has to be sorted first as it finds the index of the target value in a sorted array. Then compares the target value to the middle element of array [A].&lt;/p&gt;
+&lt;h4 id=&#34;time-space-complexity-1&#34;&gt;time-space complexity&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;worst complexity: O(logn)&lt;/li&gt;
+&lt;li&gt;best complexity: O(logn)&lt;/li&gt;
+&lt;li&gt;space complexity: O(1) - constant time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;basic-implementation-1&#34;&gt;basic implementation&lt;/h4&gt;
+&lt;p&gt;You can use Python&amp;rsquo;s BST&amp;rsquo;s &lt;code&gt;bisect(lst, item)&lt;/code&gt; module to find left or right index of the item in the list.
+You can also use BST&amp;rsquo;s &lt;code&gt;insort(lst, item)&lt;/code&gt; module to insert item to left or right index of the list.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;bisect_right(lst, item)&lt;/code&gt;: finds index of item in list, if contains duplicates, returns right most index.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;bisect_left(lst, item)&lt;/code&gt;: returns left most possible index, generates index of existing item.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;insort_right(lst, item)&lt;/code&gt;: inserts item at right most index.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;insort_left(lst, item)&lt;/code&gt;: inserts item at left most index.&lt;/p&gt;
+&lt;h4 id=&#34;pitfalls-to-avoid&#34;&gt;pitfalls to avoid&lt;/h4&gt;
+&lt;p&gt;There are two pitfalls you want to avoid when implementing BST.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;integer overflow&lt;/strong&gt; - if left and right of the [A] are large, this causes overflow. You can calculate offset to fix it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;binary_search&lt;/span&gt;(elem, item):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    middle &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (left &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; right) &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# may cause overflow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;binary_search&lt;/span&gt;(elem, item):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    middle &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; left &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; (right &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; left) &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# can&amp;#39;t overflow as offset already calculated here!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;stack overlow&lt;/strong&gt; - too many recursive calls, puts local variables onto stack of your PC&amp;rsquo;s memory. You want to consider recursion depth limits, python it&amp;rsquo;s 3000!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;dex-mod parameter&lt;/strong&gt; - recursive binary search algorithm doesn&amp;rsquo;t store its original index of the list as you iterate through the 1/2 repeated intervals in the list. This can happen when after first recursion, the index of each new sliced interval remains at 0, as it iterates through the 2nd recursion, it never gets updated!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;To fix this, you can adjust for a sub-list indexing by adding a cumulator, and discard on left of the list. A &amp;ldquo;dex-mode&amp;rdquo; parameter can be created to track indices during slicing.&lt;/p&gt;
+&lt;h4 id=&#34;common-leetcode-algorithms-1&#34;&gt;common leetcode algorithms&lt;/h4&gt;
+&lt;h3 id=&#34;queues-fifo---first-in-first-out&#34;&gt;queues (FIFO - first in first out)&lt;/h3&gt;
+&lt;p&gt;A great example is waiting in queue for a roller coaster ride! The first person in queue gets to ride first(dequeue), and the last person in queue will go last (enqueue)&lt;/p&gt;
+&lt;h4 id=&#34;time-space-complexity-2&#34;&gt;time-space complexity&lt;/h4&gt;
+&lt;h4 id=&#34;basic-implementation-with-enqueue-vs-dequeue&#34;&gt;basic implementation with enqueue vs dequeue&lt;/h4&gt;
+&lt;p&gt;Implementation is based on either dequeuing (removing element) or enqueueing (inserting element)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;dequeue&lt;/strong&gt;: element is removed at the beginning of the queue. Supports O(1) time complexity as it&amp;rsquo;s a constant. Can access, insert, remove element from beginning or end of the list with O(1).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;--&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs/code/queue.py&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; collections &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; dequeue
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dequeue ([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;a&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;b&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;c&amp;#39;&lt;/span&gt;])
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; llist&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;f&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;enqueue&lt;/strong&gt;: element is inserted at the end of the queue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Essentially, a queue data structure allows us to manage elements that can shrink and grow from one end to the other end. It uses both ends of the queue to &amp;ldquo;simulate&amp;rdquo; movement in one direction or FIFO.&lt;/p&gt;
+&lt;p&gt;A pointer must be maintain to capture the node at the front of the queue or &amp;ldquo;dequeueing.&amp;rdquo;&lt;/p&gt;
+&lt;h4 id=&#34;common-leetcode-algorithms-2&#34;&gt;common leetcode algorithms&lt;/h4&gt;
+&lt;h3 id=&#34;stacks-lifo---last-in-first-out&#34;&gt;stacks (LIFO - last in first out)&lt;/h3&gt;
+&lt;p&gt;The perfect example is looking at a stack cookies separated into five separate trays with a gap between them as we don&amp;rsquo;t want to rush those yummy cookies!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tray 1 (first top level): contains chocolate chip cookies&lt;/li&gt;
+&lt;li&gt;tray 2: contains almond cookies&lt;/li&gt;
+&lt;li&gt;tray 3: contains peanut butter cookies&lt;/li&gt;
+&lt;li&gt;tray 4: contains pistachio cookies&lt;/li&gt;
+&lt;li&gt;tray 5 (the lowest level): contains pecan cookides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;time-space-complexity-3&#34;&gt;time-space complexity&lt;/h4&gt;
+&lt;h4 id=&#34;basic-implementation-2&#34;&gt;basic implementation&lt;/h4&gt;
+&lt;p&gt;How do I implement a stack algorithm so that I can get to the pistachio cookies from tray 4?&lt;/p&gt;
+&lt;p&gt;To do this, you are required to first remove tray 1, as it&amp;rsquo;s a FIFO algorithm. And iteratively loop through each lower level until you get to the desired tray 4.&lt;/p&gt;
+&lt;p&gt;In this data structure, you&amp;rsquo;ll have to first remove top element to access the next element at the top. Last item inserted, is first one to get removed.&lt;/p&gt;
+&lt;p&gt;To remove top node, change head pointer, until there&amp;rsquo;s a &amp;ldquo;None&amp;rdquo; value left to iterate on.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;--&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs/code/stack.py&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;common-leetcode-algorithms-3&#34;&gt;common leetcode algorithms&lt;/h4&gt;
+&lt;h3 id=&#34;sorting-algorithms&#34;&gt;sorting algorithms&lt;/h3&gt;
+&lt;h4 id=&#34;common-leetcode-algorithms-4&#34;&gt;common leetcode algorithms&lt;/h4&gt;
+&lt;h3 id=&#34;searching-algorithms&#34;&gt;searching algorithms&lt;/h3&gt;
+&lt;h4 id=&#34;common-leetcode-algorithms-5&#34;&gt;common leetcode algorithms&lt;/h4&gt;
+&lt;h3 id=&#34;merging-algorithms&#34;&gt;merging algorithms&lt;/h3&gt;
+&lt;h4 id=&#34;common-leetcode-algorithms-6&#34;&gt;common leetcode algorithms&lt;/h4&gt;
+&lt;h3 id=&#34;testing&#34;&gt;testing&lt;/h3&gt;
 </description>
     </item>
     
     <item>
-      <title>academia: the website builder for Hugo</title>
-      <link>http://localhost:1313/post/getting-started/</link>
+      <title>OOP Design and Principles</title>
+      <link>https://yenkha.com/post/pythonic-stuff/oop/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/getting-started/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+      <guid>https://yenkha.com/post/pythonic-stuff/oop/</guid>
+      <description>&lt;h2 id=&#34;what-are-interfaces&#34;&gt;what are interfaces?&lt;/h2&gt;
+&lt;p&gt;Interfaces is one of the many OOP design principles in Python. You can think of interfaces as an abstraction layer. Before designing a logical layer of your code, you build a code design framework laying out how you want to map out your model in code like creating a UML. They&amp;rsquo;re essentially a &lt;code&gt;blueprint&lt;/code&gt; to help lay out your OOP design, ensuring it encapsulate things like duck-typing, polymorphism, inheritance, and encapsulation are efficiently optimized.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The blueprint composition&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/post/getting-started/#install&#34;&gt;&lt;strong&gt;Setup academia&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/issues&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Support development of academia:
+&lt;li&gt;defined methods&lt;/li&gt;
+&lt;li&gt;methods are abstract where the interface defines them without any implementation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Class design for blueprint&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academia&#34;&gt;Decorate your laptop or journal with an academia sticker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://academia.threadless.com/&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;implement the interface for your model&lt;/li&gt;
+&lt;li&gt;give concrete definitions to your abstract methods&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academia/master/academia.png&#34; alt=&#34;Screenshot&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There are Python &lt;code&gt;formal&lt;/code&gt; and &lt;code&gt;informal interfaces&lt;/code&gt; that defines the blueprint, which we&amp;rsquo;ll implement with a use case here.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;informal-interfaces&#34;&gt;informal interfaces&lt;/h3&gt;
+&lt;p&gt;This defines methods to get overriden.
+Strict rules may not be required.
+There are no enforcement put in place.
+It&amp;rsquo;s supposedly pythonically consistent with the language philosophy!&lt;/p&gt;
+&lt;p&gt;This may result in problems due to its loose rules (shocking!!)!&lt;/p&gt;
+&lt;p&gt;There are &lt;code&gt;metaclasses&lt;/code&gt; and &lt;code&gt;virtual base classes (VBC)&lt;/code&gt;. When you implement a metaclass, ensure you validate its subclasses and abstract methods are correctly inherited using &lt;code&gt;issubclass(class1(), class2()).&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For example, let&amp;rsquo;s say you want to build a bike. The interfaces that consist of building a bike that you&amp;rsquo;ll need:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;li&gt;a bike frame&lt;/li&gt;
+&lt;li&gt;a set of wheels&lt;/li&gt;
+&lt;li&gt;gear&lt;/li&gt;
+&lt;li&gt;brake&lt;/li&gt;
+&lt;li&gt;handle bars, etc&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
-&lt;p&gt;academia comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academia-demo.netlify.com/&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
-&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
-
-
-
-
-
-
-
-
-  
-  
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-1950s_hu_3df16cb4e000756d.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-apogee_hu_53f9a77eacf7101.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-coffee-playfair_hu_c0b733f1caf3eed7.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-dark_hu_ba52b5681ad91cc0.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-default_hu_ecc6375b0db16a75.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-forest_hu_30553c23ebdd8598.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-ocean_hu_f6427f7c95185d0f.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-    
-    
-    
-    
-    
-      
-        
-      
-    
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;http://localhost:1313/post/getting-started/gallery/theme-strawberry.png&#34; data-caption=&#34;Strawberry&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/post/getting-started/gallery/theme-strawberry_hu_7fffc548209def07.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-
-  
-&lt;/div&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-admin&#34;&gt;academia Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academia-scripts&#34;&gt;academia Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of academia&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academia/&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academia/blob/master/LICENSE.md&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
+&lt;p&gt;Here, we are creating a an informal interface - laying out the design model, and not implementation. The methods are abstract.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;--&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs/code/bike/bikeconfig.py&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Next, we are going to implement a concrete class object using formal interface to implement the bike with some style!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;--&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;docs/code/bike/bikebuild.py&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>
