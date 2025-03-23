@@ -79,13 +79,11 @@ As a visionary data and software engineering leader, I drive technical innovatio
 
 At the forefront of AI exploration, I'm passionate about pushing the boundaries of Large Language Models (LLMs), language understanding, generation, and human-AI collaboration, empowering teams to pioneer groundbreaking AI innovations.
 
-#### Key Expertise:
-* Data Architecture: Designing scalable data architectures for AI/ML workloads
-* Data Ingestion: Building efficient data pipelines using Apache Spark and Airflow
-* ETL: Developing ETL pipelines using Python, Spark, and SQL
-* Data Lake: Designing and implementing data lakes using Databricks, Medallion architecture, Azure Blob and Google Cloud Storage
-* AI & ML: Large Language Models (LLMs), Natural Language Processing (NLP)
-* Programming & Data: Go, PostgreSQL, Python, Spark, Terraform, Terragrunt
-* Cloud & DevOps: Airflow, AWS, Azure, Datadog, Docker, GCP, Vault, Jfrog Artifactory, Kubernetes, Rancher
-* APIs & Integrations: FastAPI, GraphQL, HuggingFace, Kafka, LLM
-* Leadership: Technical Leadership, Team Management
+### Highly driven and tenacious technical leader 
+Results-driven technical leader with expertise in designing scalable data architectures, building efficient data pipelines, and developing large-scale AI/ML solutions using LLMs and NLP. Proficient in a range of technologies, including Go, Python, Spark, PostgreSQL, and Terraform, with experience in cloud and DevOps platforms such as AWS, Azure, GCP, Kubernetes, and Docker. Proven technical leadership skills, with a strong track record of team management and technical vision, and expertise in integrating APIs and systems using FastAPI, GraphQL, Kafka, and HuggingFace.
+
+#### Key areas of expertise include:
+Data Architecture: Designing scalable architectures for AI/ML workloads
+AI/ML Engineering: Developing large-scale language models (LLMs) and NLP solutions
+Cloud and DevOps: Building efficient data pipelines and deploying large-scale solutions on AWS, Azure, and GCP
+Technical Leadership: Leading high-performing teams and driving technical visions

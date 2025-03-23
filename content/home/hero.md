@@ -34,9 +34,9 @@ hero_media = "walle.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 # [btn]
-#   # url = "content/projects/"  # set to projects here
+#   url = "content/projects/"  # set to projects here
 #   url = "authors/admin/"
-#   label = "Learn more"
+#   label = "Learn more" 
 
 ## TODO ##
 # [btn_alt]
