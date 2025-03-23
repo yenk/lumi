@@ -63,14 +63,14 @@ office_hours = ""
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = ""
 
-# Contact links
+# Contact links on every page
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
-contact_links = [
-  {icon = "linkedin", icon_pack = "fab", name = "Linkedin", link = "https://www.linkedin.com/in/yenkha/"},
-  {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/yenk/"},
+# contact_links = [
+#   {icon = "linkedin", icon_pack = "fab", name = "Linkedin", link = "https://www.linkedin.com/in/yenkha/"},
+#   {icon = "github", icon_pack = "fab", name = "Github", link = "https://github.com/yenk/"},
   # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  ]
+
 
 # Display a map.
 # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose

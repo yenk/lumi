@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on YenKha</title>
-    <link>http://localhost:44579/talk/</link>
+    <link>http://localhost:42785/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     
-	    <atom:link href="http://localhost:44579/talk/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:42785/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Access to Justice for All, leveraging AI Modeling</title>
-      <link>http://localhost:44579/talk/j4all/</link>
+      <link>http://localhost:42785/talk/j4all/</link>
       <pubDate>Tue, 08 Apr 2025 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:44579/talk/j4all/</guid>
+      <guid>http://localhost:42785/talk/j4all/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.

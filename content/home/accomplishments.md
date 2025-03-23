@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2025-04-05"
   date_end = ""
-  description = "Launching the first LLM AI platform competition to 10+ top Venture Capitalists to transform access to justice."
+  description = "Revolutionizing access to justice by introducing the inaugural LLM AI Platform Competition, showcasing innovative solutions to 10+ leading Venture Capitalists and paving the way for a more equitable legal landscape."
 
 [[item]]
   organization = "Nike"
