@@ -23,6 +23,7 @@ googleAnalytics = "G-TY687GSQJG" # example: UA-123456-78, for more info, read th
 ############################
 
 # Name of Academia theme folder in `themes/`.
+# this is required to use the template. do not delete!
 theme = "academia-hugo"
 
 # Get last modified date for content from Git?
@@ -42,6 +43,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 [services]
 # Enable comments by entering your Disqus shortname
 [services.disqus]
+# disable with empty string
 Shortname = "" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
 # Build

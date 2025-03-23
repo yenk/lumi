@@ -9,5 +9,5 @@ header:
   caption: ""
   image: ""
 ---
+Thank you for visiting my website! I am dedicated to safeguarding the privacy of all visitors to my website. I do not collect, store, or share any personal data from your visit. Your privacy is respected and protected, and I am committed to maintaining a secure and trustworthy online environment.
 
-...

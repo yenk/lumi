@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on YenKha</title>
-    <link>https://yenkha.com/post/</link>
+    <link>http://localhost:44579/post/</link>
     <description>Recent content in Posts on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     
-	    <atom:link href="https://yenkha.com/post/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:44579/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Restructuring and Formatting</title>
-      <link>https://yenkha.com/post/pythonic-stuff/data_wrangling/</link>
+      <link>http://localhost:44579/post/pythonic-stuff/data_wrangling/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://yenkha.com/post/pythonic-stuff/data_wrangling/</guid>
+      <guid>http://localhost:44579/post/pythonic-stuff/data_wrangling/</guid>
       <description>&lt;h2 id=&#34;functional-programming-using-functional-tools&#34;&gt;functional programming using functional tools&lt;/h2&gt;
 &lt;p&gt;Functional tools are essentially the fundamental components of functional programming, that leverages these built-in functions. What&amp;rsquo;s really neat about them is that these functions not only optimize how you passed in iterables with time-complexity efficiency and memory, but also fewer lines of code to write!&lt;/p&gt;
 &lt;!-- ### map --&gt;
@@ -109,10 +109,10 @@
     
     <item>
       <title>Data Structures &amp; Algorithms</title>
-      <link>https://yenkha.com/post/pythonic-stuff/data_structures/</link>
+      <link>http://localhost:44579/post/pythonic-stuff/data_structures/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://yenkha.com/post/pythonic-stuff/data_structures/</guid>
+      <guid>http://localhost:44579/post/pythonic-stuff/data_structures/</guid>
       <description>&lt;h1 id=&#34;data-structures--algorithms&#34;&gt;data structures &amp;amp; algorithms&lt;/h1&gt;
 &lt;p&gt;In programing, data structures play such a pivotal role in everything we implement from data to software that you just can&amp;rsquo;t avoid not talking about it or learning about it as much as you can! Obviously, so relevant that students are often required to digest as a full semester college course idn CS. Let&amp;rsquo;s get to this now!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../assets/images/da.png&#34; alt=&#34;data structures&#34;&gt;&lt;/p&gt;
@@ -308,10 +308,10 @@ You can also use BST&amp;rsquo;s &lt;code&gt;insort(lst, item)&lt;/code&gt; modu
     
     <item>
       <title>OOP Design and Principles</title>
-      <link>https://yenkha.com/post/pythonic-stuff/oop/</link>
+      <link>http://localhost:44579/post/pythonic-stuff/oop/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://yenkha.com/post/pythonic-stuff/oop/</guid>
+      <guid>http://localhost:44579/post/pythonic-stuff/oop/</guid>
       <description>&lt;h2 id=&#34;what-are-interfaces&#34;&gt;what are interfaces?&lt;/h2&gt;
 &lt;p&gt;Interfaces is one of the many OOP design principles in Python. You can think of interfaces as an abstraction layer. Before designing a logical layer of your code, you build a code design framework laying out how you want to map out your model in code like creating a UML. They&amp;rsquo;re essentially a &lt;code&gt;blueprint&lt;/code&gt; to help lay out your OOP design, ensuring it encapsulate things like duck-typing, polymorphism, inheritance, and encapsulation are efficiently optimized.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The blueprint composition&lt;/strong&gt;&lt;/p&gt;
