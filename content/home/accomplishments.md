@@ -21,7 +21,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "LLM x Law Hackathon - CodeX"
   organization_url = "https://law.stanford.edu/event/llm-x-law-hackathon-stanford-5/"
-  title = "Building Legal AI Platform"
+  title = "Hacking the Future of Law as a Legal AI Disruptor"
   url = ""
   certificate_url = ""
   date_start = "2025-04-05"

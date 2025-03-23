@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YenKha</title>
-    <link>http://localhost:42785/</link>
+    <link>http://localhost:38597/</link>
     <description>Recent content on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 08 Apr 2025 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:42785/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:38597/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:42785/slides/</link>
+      <link>http://localhost:38597/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/slides/</guid>
+      <guid>http://localhost:38597/slides/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>http://localhost:42785/privacy/</link>
+      <link>http://localhost:38597/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       
-      <guid>http://localhost:42785/privacy/</guid>
+      <guid>http://localhost:38597/privacy/</guid>
       <description>&lt;p&gt;Thank you for visiting my website! I am dedicated to safeguarding the privacy of all visitors to my website. I do not collect, store, or share any personal data from your visit. Your privacy is respected and protected, and I am committed to maintaining a secure and trustworthy online environment.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:42785/project/</link>
+      <link>http://localhost:38597/project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/project/</guid>
+      <guid>http://localhost:38597/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>http://localhost:42785/courses/</link>
+      <link>http://localhost:38597/courses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/courses/</guid>
+      <guid>http://localhost:38597/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>http://localhost:42785/post/</link>
+      <link>http://localhost:38597/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/post/</guid>
+      <guid>http://localhost:38597/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://localhost:42785/publication/</link>
+      <link>http://localhost:38597/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/publication/</guid>
+      <guid>http://localhost:38597/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://localhost:42785/talk/</link>
+      <link>http://localhost:38597/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/talk/</guid>
+      <guid>http://localhost:38597/talk/</guid>
       <description></description>
     </item>
     

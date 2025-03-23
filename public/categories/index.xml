@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on YenKha</title>
-    <link>http://localhost:42785/categories/</link>
+    <link>http://localhost:38597/categories/</link>
     <description>Recent content in Categories on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:42785/categories/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:38597/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Engineering</title>
-      <link>http://localhost:42785/categories/data-engineering/</link>
+      <link>http://localhost:38597/categories/data-engineering/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/categories/data-engineering/</guid>
+      <guid>http://localhost:38597/categories/data-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:42785/categories/python/</link>
+      <link>http://localhost:38597/categories/python/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:42785/categories/python/</guid>
+      <guid>http://localhost:38597/categories/python/</guid>
       <description></description>
     </item>
     
