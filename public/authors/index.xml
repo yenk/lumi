@@ -2,37 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on YenKha</title>
-    <link>http://localhost:40433/authors/</link>
+    <link>http://localhost:37665/authors/</link>
     <description>Recent content in Authors on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:40433/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:37665/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://localhost:40433/authors/admin/</link>
+      <link>http://localhost:37665/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40433/authors/admin/</guid>
+      <guid>http://localhost:37665/authors/admin/</guid>
       <description>&lt;h3 id=&#34;transformational-leader-in-ai-ml--backend-platform-engineering&#34;&gt;Transformational Leader in AI, ML &amp;amp; Backend Platform Engineering&lt;/h3&gt;
 &lt;p&gt;As a visionary data and software engineering leader, I drive technical innovation and strategic growth by architecting scalable data platforms, architectures, and pipelines that fuel AI/ML advancements. With expertise in software and backend engineering, I craft efficient, reliable, and future-proof solutions that accelerate AI-powered software product development.&lt;/p&gt;
 &lt;p&gt;At the forefront of AI exploration, I&amp;rsquo;m passionate about pushing the boundaries of Large Language Models (LLMs), language understanding, generation, and human-AI collaboration, empowering teams to pioneer groundbreaking AI innovations.&lt;/p&gt;
-&lt;h4 id=&#34;key-expertise&#34;&gt;Key Expertise:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Data Architecture: Designing scalable data architectures for AI/ML workloads&lt;/li&gt;
-&lt;li&gt;Data Ingestion: Building efficient data pipelines using Apache Spark and Airflow&lt;/li&gt;
-&lt;li&gt;ETL: Developing ETL pipelines using Python, Spark, and SQL&lt;/li&gt;
-&lt;li&gt;Data Lake: Designing and implementing data lakes using Databricks, Medallion architecture, Azure Blob and Google Cloud Storage&lt;/li&gt;
-&lt;li&gt;AI &amp;amp; ML: Large Language Models (LLMs), Natural Language Processing (NLP)&lt;/li&gt;
-&lt;li&gt;Programming &amp;amp; Data: Go, PostgreSQL, Python, Spark, Terraform, Terragrunt&lt;/li&gt;
-&lt;li&gt;Cloud &amp;amp; DevOps: Airflow, AWS, Azure, Datadog, Docker, GCP, Vault, Jfrog Artifactory, Kubernetes, Rancher&lt;/li&gt;
-&lt;li&gt;APIs &amp;amp; Integrations: FastAPI, GraphQL, HuggingFace, Kafka, LLM&lt;/li&gt;
-&lt;li&gt;Leadership: Technical Leadership, Team Management&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;highly-driven-and-tenacious-technical-leader&#34;&gt;Highly driven and tenacious technical leader&lt;/h3&gt;
+&lt;p&gt;Results-driven technical leader with expertise in designing scalable data architectures, building efficient data pipelines, and developing large-scale AI/ML solutions using LLMs and NLP. Proficient in a range of technologies, including Go, Python, Spark, PostgreSQL, and Terraform, with experience in cloud and DevOps platforms such as AWS, Azure, GCP, Kubernetes, and Docker. Proven technical leadership skills, with a strong track record of team management and technical vision, and expertise in integrating APIs and systems using FastAPI, GraphQL, Kafka, and HuggingFace.&lt;/p&gt;
+&lt;h4 id=&#34;key-areas-of-expertise-include&#34;&gt;Key areas of expertise include:&lt;/h4&gt;
+&lt;p&gt;Data Architecture: Designing scalable architectures for AI/ML workloads
+AI/ML Engineering: Developing large-scale language models (LLMs) and NLP solutions
+Cloud and DevOps: Building efficient data pipelines and deploying large-scale solutions on AWS, Azure, and GCP
+Technical Leadership: Leading high-performing teams and driving technical visions&lt;/p&gt;
 </description>
     </item>
     

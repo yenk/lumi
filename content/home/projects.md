@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Ongoing Projects"
+title = "Projects"
 subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
 
 [content]
@@ -27,7 +27,7 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
   
   [[content.filter_button]]
     name = "Legal AI"
-    tag = "AI"
+    tag = "AI, LLMs, AI"
   
   [[content.filter_button]]
     name = "Large Language Models"
@@ -35,11 +35,11 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
   
   [[content.filter_button]]
     name = "Computational Genomics"
-    tag = "genetics"
+    tag = "Genomics"
   
   [[content.filter_button]]
     name = "Robotics"
-    tag = "robotics"
+    tag = "Robotics"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

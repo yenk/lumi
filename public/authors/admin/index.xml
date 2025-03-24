@@ -2,21 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YenKha</title>
-    <link>http://localhost:40433/authors/admin/</link>
+    <link>http://localhost:37665/authors/admin/</link>
     <description>Recent content on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     
-	    <atom:link href="http://localhost:40433/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="http://localhost:37665/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Applying Machine Learning to Study Human Genome</title>
+      <link>http://localhost:37665/project/computation-genomics/human-genome/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37665/project/computation-genomics/human-genome/</guid>
+      <description>&lt;h2 id=&#34;inspiration&#34;&gt;inspiration&lt;/h2&gt;
+&lt;p&gt;Driven by curiosity and inspired by the groundbreaking work of the Human Genome Project, I&amp;rsquo;m passionate about exploring the intersection of technology and scientific discovery. The relentless pursuit of innovation in our global scientific community fuels my desire to contribute to the advancement of Human Genome in AI space.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Quantitative Genetics paved my curiosity as a grad student.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reading &amp;ldquo;Code Breaker&amp;rdquo; from Isaac Walterson&amp;rsquo;s inspirational and fantastic storytelling of Dr. Doudna - her incessant quest to develop ways to help humans treat disease by developing the famous CRISPR gene editing instrument. This was pretty influential for me to dive deeper in this subject and further understand how DNA sequencing, particularly mRNA which was the focus of Dr. Doudna&amp;rsquo;s pioneering work that inspires me to learn more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Genetics has always been in the back of mind, and a passionate topic. So this project was a no-brainer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In my creative attempt to dive into machine learning, this is it - right here!&lt;/p&gt;
+&lt;p&gt;It is absolutely not a new topic for me.&lt;/p&gt;
+&lt;p&gt;So, with this blog, I knew I had write something about human genetics and here it goes!&lt;/p&gt;
+&lt;h2 id=&#34;examining-telomeric-dna-sequences&#34;&gt;examining telomeric DNA sequences&lt;/h2&gt;
+&lt;p&gt;Chromosomes are structures that live in our cell&amp;rsquo;s nucleus. They&amp;rsquo;re are made of protein and DNA molecules that carry our genomic information from cell to cell. We have 22 pairs of these numbered chromosomes (autosomes) and one pair of sex chromosomes (XX or XY), for a total of 46. Each pair contains two chromosomes, one coming from each parent, which means that children inherit half of their chromosomes from their mother and half from their father. Chromosomes can be seen through a microscope when the nucleus dissolves during cell division.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a &lt;a href=&#34;https://youtu.be/McduZ8478h8&#34;&gt;great video&lt;/a&gt; that explains this 3D!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../assets/images/chromosome.png&#34; alt=&#34;chromosome&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A telomere is a region of repetitive short DNA sequences at the end of a chromosome that gets repeated hundreds of times. Their complete replication and stability is essential for the human genome. Its job is to protect the ends of our chromosomes from becoming too frayed or tangled up! It&amp;rsquo;s essentially a really long piece of DNA that is comprised of two loose ends as shown on the image here. These are called T-loops that help keep chromosome from clinging onto each other. And so every time a cell dividies, it gets cut off, until a telomeric enzyme called &amp;ldquo;telomerase&amp;rdquo; help adds those repeats back into the ends of the chromosomal strand to prevent it from becoming too short. Each time a cell divides, telomeres keeps shrinking until the cell can no longer divides, our cell dies.&lt;/p&gt;
+&lt;p&gt;Telomeres&amp;rsquo; progressive length shortening is a key biomarker for age-associated diseases in our chromosome. There have been substantial challenges even with quantifying evidences that resulted from lack of corrected method used to correctly measure its length in many research studies. With this being said, this project is to further dive into different datasets that have both supported and refuted this biomarker as age-associated link to aging by analyzing, predicting and building machine learning models to validate its accuracy and consistency of such claims.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../assets/images/telomere.png&#34; alt=&#34;telomere&#34;&gt;&lt;/p&gt;
+&lt;p&gt;source: National Human Genomic Institute&lt;/p&gt;
+&lt;h2 id=&#34;multivariate-factorial-analysis&#34;&gt;multivariate factorial analysis&lt;/h2&gt;
+&lt;p&gt;I wanted to do a meta analysis of combing through several research to study if human telomeres are affected by their upbringings via nature vs nurture that help us live longer. I collected several datasets that refuted and supported both claims that nature and nurture do in fact affect our telomeric DNA sequences.&lt;/p&gt;
+&lt;p&gt;Essentially, the scientific question to ask from the &lt;a href=&#34;https://zenodo.org/record/5646557#.Y7g1GtLMKEI&#34;&gt;first dataset&lt;/a&gt; is: Deriving from the parents&amp;rsquo;s chromosomal DNA sequencing structure - do the telomeres lengthen or shorten due to age and time as a repercussion of their upbringing or DNA genetic inheritance?  Based on this study, the researchers concluded that from a longitudinal study of sparrow weavers that older parents do in fact propagated offsprings with longer telomeres, which yielded longer lifespan for their offsprings!&lt;/p&gt;
+&lt;h3 id=&#34;data-exploration&#34;&gt;data exploration&lt;/h3&gt;
+&lt;h4 id=&#34;sample-analysis&#34;&gt;sample analysis&lt;/h4&gt;
+&lt;p&gt;Sample population size for M and F for white-browed sparrow weavers.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../assets/images/sparrowweaver.png&#34; alt=&#34;sparrow weaver&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../assets/images/sex.png&#34; alt=&#34;sex comparison&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;rtl-as-a-function-of-time&#34;&gt;RTL as a function of time&lt;/h4&gt;
+&lt;p&gt;As one can see that, duration and RTL is correlated here. This is examining the entire dataset without applying any ML models. This at least gives some exposure according to this dataset, that there is some evidence when observing both variables together.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../assets/images/rtl_duration.png&#34; alt=&#34;rtl against time&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;supervised-learning---linear-regression&#34;&gt;supervised learning - linear regression&lt;/h3&gt;
+&lt;p&gt;The simplest approach for me is to do a multivariate factorial analysis - generate a linear regression ml model to predict the effects of maternal vs paternal age as a function of time (days), if it&amp;rsquo;s in fact affecting their offsprings&amp;rsquo; relative telomere length (RTL) in wild animals.  This dataset is a collection of chromosomal datasets of wild animals containing telomeres traits, parental ages, dna extraction and sampling periods over a period of a few years; and comparing age as a function of time elapsed.  The first dataset looks into wild white-browed sparrow weaver&amp;rsquo;s breeding length.&lt;/p&gt;
+&lt;p&gt;Based on my analysis using a linear regression model, it is evident that maternal&amp;rsquo;s influence in offsprings telomere length resulting in longer lifespan is due to age and duration. Particularly, when you&amp;rsquo;re looking at the linear regression model I built applying both maternal and paternal&amp;rsquo;s mean age as a function of time , the RTL&amp;rsquo;s (relative telomere length measured by qPCR is a biomarker for physiological aging) has a higher R correlation in maternal vs paternal!&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+
+x = df[&amp;#34;MATERNAL.AGE.DAYS&amp;#34;]
+y = df[&amp;#34;RTL&amp;#34;]
+slope, intercept, r, p, std_err = stats.linregress(x, y)
+
+def generate_linear_regression(x):
+  return slope * x + intercept
+
+linregmodel = list(map(generate_linear_regression, x))
+
+plt.scatter(x, y)
+plt.plot(x, linregmodel, color = &amp;#34;red&amp;#34;)
+plt.gca().set_title(&amp;#34;Linear regression model to predict RTL against maternal&amp;#39;s age in days&amp;#34;)
+plt.show()
+print(f&amp;#34;correlation = {r}, std error = {std_err}, slope = {slope}, intercept = {intercept}&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Looking at a simple linear regression model, it&amp;rsquo;s clear that there is some significant correlation between parents&amp;rsquo; age and duration in DNA extraction and sampling period when it comes to comparing the maternal vs paternal DNA structural sequences and its influence in their offsprings life span, where their telomeric length for maternal is more signficant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Maternal RTL based on age and duration&lt;/strong&gt;
+&lt;img src=&#34;../assets/images/matrtl_linreg_1.png&#34; alt=&#34;maternal linear regression&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;correlation = 0.2302716811493559&lt;/li&gt;
+&lt;li&gt;std error = 1.2200096429220074e-05&lt;/li&gt;
+&lt;li&gt;slope = 7.974377994149696e-05&lt;/li&gt;
+&lt;li&gt;intercept = 0.8813067639152621&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Paternal&amp;rsquo;s RTL based on age and duration&lt;/strong&gt;
+&lt;img src=&#34;../assets/images/patrtl_linreg_1.png&#34; alt=&#34;paternal linear regression&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;correlation = 0.18167682726626644&lt;/li&gt;
+&lt;li&gt;std error = 1.153510270254853e-05&lt;/li&gt;
+&lt;li&gt;slope = 5.88669435519415e-05&lt;/li&gt;
+&lt;li&gt;intercept = 0.9098460577841743&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;github-source-code&#34;&gt;&lt;a href=&#34;https://github.com/yenk/human-genomic-meta-analysis&#34;&gt;github source code&lt;/a&gt;&lt;/h4&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building a Legal LLM Platform</title>
+      <link>http://localhost:37665/project/legal_ai/j4all/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:37665/project/legal_ai/j4all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Alternative Indicators: A New AI for Law (Pending publication)</title>
-      <link>http://localhost:40433/publication/conference-paper/</link>
+      <link>http://localhost:37665/publication/conference-paper/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40433/publication/conference-paper/</guid>
+      <guid>http://localhost:37665/publication/conference-paper/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -37,10 +131,10 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Data Restructuring and Formatting</title>
-      <link>http://localhost:40433/post/pythonic-stuff/data_wrangling/</link>
+      <link>http://localhost:37665/post/pythonic-stuff/data_wrangling/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40433/post/pythonic-stuff/data_wrangling/</guid>
+      <guid>http://localhost:37665/post/pythonic-stuff/data_wrangling/</guid>
       <description>&lt;h2 id=&#34;functional-programming-using-functional-tools&#34;&gt;functional programming using functional tools&lt;/h2&gt;
 &lt;p&gt;Functional tools are essentially the fundamental components of functional programming, that leverages these built-in functions. What&amp;rsquo;s really neat about them is that these functions not only optimize how you passed in iterables with time-complexity efficiency and memory, but also fewer lines of code to write!&lt;/p&gt;
 &lt;!-- ### map --&gt;
@@ -133,10 +227,10 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     
     <item>
       <title>Data Structures &amp; Algorithms</title>
-      <link>http://localhost:40433/post/pythonic-stuff/data_structures/</link>
+      <link>http://localhost:37665/post/pythonic-stuff/data_structures/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40433/post/pythonic-stuff/data_structures/</guid>
+      <guid>http://localhost:37665/post/pythonic-stuff/data_structures/</guid>
       <description>&lt;h1 id=&#34;data-structures--algorithms&#34;&gt;data structures &amp;amp; algorithms&lt;/h1&gt;
 &lt;p&gt;In programing, data structures play such a pivotal role in everything we implement from data to software that you just can&amp;rsquo;t avoid not talking about it or learning about it as much as you can! Obviously, so relevant that students are often required to digest as a full semester college course idn CS. Let&amp;rsquo;s get to this now!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;../assets/images/da.png&#34; alt=&#34;data structures&#34;&gt;&lt;/p&gt;
@@ -332,10 +426,10 @@ You can also use BST&amp;rsquo;s &lt;code&gt;insort(lst, item)&lt;/code&gt; modu
     
     <item>
       <title>OOP Design and Principles</title>
-      <link>http://localhost:40433/post/pythonic-stuff/oop/</link>
+      <link>http://localhost:37665/post/pythonic-stuff/oop/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40433/post/pythonic-stuff/oop/</guid>
+      <guid>http://localhost:37665/post/pythonic-stuff/oop/</guid>
       <description>&lt;h2 id=&#34;what-are-interfaces&#34;&gt;what are interfaces?&lt;/h2&gt;
 &lt;p&gt;Interfaces is one of the many OOP design principles in Python. You can think of interfaces as an abstraction layer. Before designing a logical layer of your code, you build a code design framework laying out how you want to map out your model in code like creating a UML. They&amp;rsquo;re essentially a &lt;code&gt;blueprint&lt;/code&gt; to help lay out your OOP design, ensuring it encapsulate things like duck-typing, polymorphism, inheritance, and encapsulation are efficiently optimized.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The blueprint composition&lt;/strong&gt;&lt;/p&gt;
@@ -374,10 +468,10 @@ It&amp;rsquo;s supposedly pythonically consistent with the language philosophy!&
     
     <item>
       <title></title>
-      <link>http://localhost:40433/authors/admin/</link>
+      <link>http://localhost:37665/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40433/authors/admin/</guid>
+      <guid>http://localhost:37665/authors/admin/</guid>
       <description>&lt;h3 id=&#34;transformational-leader-in-ai-ml--backend-platform-engineering&#34;&gt;Transformational Leader in AI, ML &amp;amp; Backend Platform Engineering&lt;/h3&gt;
 &lt;p&gt;As a visionary data and software engineering leader, I drive technical innovation and strategic growth by architecting scalable data platforms, architectures, and pipelines that fuel AI/ML advancements. With expertise in software and backend engineering, I craft efficient, reliable, and future-proof solutions that accelerate AI-powered software product development.&lt;/p&gt;
 &lt;p&gt;At the forefront of AI exploration, I&amp;rsquo;m passionate about pushing the boundaries of Large Language Models (LLMs), language understanding, generation, and human-AI collaboration, empowering teams to pioneer groundbreaking AI innovations.&lt;/p&gt;

@@ -1,6 +1,5 @@
 ---
 title: 'Data Structures & Algorithms'
-# subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Exploring Python's data transformation and formatting capabilities, including parsing and validation, optimization and serialization, and conversion to versatile data objects such as dictionaries, lists, tuples, sets, and arrays, utilizing popular Python libraries.
 authors:
 - admin

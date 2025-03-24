@@ -51,6 +51,6 @@ clean:
 # this doesn't delete old files: 
 # scp -r ~/proj/lumi/public/* root@yenkha.com:/var/www/lumi
 deploy: # use rsync to delete
-	rynsc cp -r ~/proj/lumi/public/* root@yenkha.com:/var/www/lumi
+	scp -r ~/proj/lumi/public/* root@yenkha.com:/var/www/lumi
 
 .PHONY: all server build clean
