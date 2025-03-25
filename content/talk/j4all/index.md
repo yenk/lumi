@@ -2,7 +2,7 @@
 # title: Coding and Analyzing Qualitative Data
 title: Access to Justice for All, leveraging AI Modeling
 event: CodeX FutureLaw 2025
-event_url: https://conferences.law.stanford.edu/futurelaw/
+event_url: https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/projects/access-to-justice-for-all-leveraging-ai-modeling/
 # location: Palo Alto, Stanford University
 summary: Empowering Access to Justice for All by leveraging cutting-edge Legal AI, I'm architecting a scalable platform that converges transformer-based LLMs, MLOps, and cloud-native technologies. 
 abstract: "Revolutionizing Access to Justice: Harnessing the power of Large Language Models (LLMs) and cloud-native technologies, I'm developing a scalable Legal AI platform that bridges the justice gap based fact-finding patterns. By democratizing AI-driven legal innovation, this solution enables equitable access to justice, empowering marginalized communities and fostering a more just society."

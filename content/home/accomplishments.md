@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   url = ""
   certificate_url = ""
   date_start = "2025-04-05"
-  date_end = ""
+  date_end = "" 
   description = "Revolutionizing access to justice by introducing the inaugural LLM AI Platform Competition, showcasing innovative solutions to 10+ leading Venture Capitalists and paving the way for a more equitable legal landscape."
 
 [[item]]
