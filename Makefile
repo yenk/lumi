@@ -31,7 +31,7 @@ HUGO_BUILD = $(HUGO)
 HUGO_PROD = $(HUGO) --baseURL=$(PROD_URL)
 
 # Targets
-all: build
+all: clean build deploy
 
 server:
 	$(HUGO_SERVER) -D -F --navigateToChanged
@@ -42,8 +42,6 @@ build:
 # deletes old local files before deploying to remote server
 clean:
 	rm -rf public/*
-
-# rynsc -avz --delete ~/proj/lumi/public/
 
 # this deletes old files
 # rynsc cp -r ~/proj/lumi/public/* root@yenkha.com:/var/www/lumi
