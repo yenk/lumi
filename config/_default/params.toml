@@ -163,4 +163,4 @@ sharing = false
     show_logo = false
 
 [params]
-  favicon = "/favicon.png"  # or .png, .svg, etc. 
+  favicon = "/img/favicon.png"  # or .png, .svg, etc. 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses on YenKha</title>
-    <link>http://localhost:37665/courses/</link>
+    <link>https://yenkha.com/courses/</link>
     <description>Recent content in Courses on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     
-	    <atom:link href="http://localhost:37665/courses/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://yenkha.com/courses/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Overview 2</title>
-      <link>http://localhost:37665/courses/example.1/</link>
+      <link>https://yenkha.com/courses/example.1/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/courses/example.1/</guid>
+      <guid>https://yenkha.com/courses/example.1/</guid>
       <description>&lt;h2 id=&#34;flexibility&#34;&gt;Flexibility&lt;/h2&gt;
 &lt;p&gt;This feature can be used for publishing content such as:&lt;/p&gt;
 &lt;ul&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>Overview 3</title>
-      <link>http://localhost:37665/courses/example.2/</link>
+      <link>https://yenkha.com/courses/example.2/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/courses/example.2/</guid>
+      <guid>https://yenkha.com/courses/example.2/</guid>
       <description>&lt;h2 id=&#34;flexibility&#34;&gt;Flexibility&lt;/h2&gt;
 &lt;p&gt;This feature can be used for publishing content such as:&lt;/p&gt;
 &lt;ul&gt;
@@ -79,10 +79,10 @@
     
     <item>
       <title>Overview</title>
-      <link>http://localhost:37665/courses/example/</link>
+      <link>https://yenkha.com/courses/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/courses/example/</guid>
+      <guid>https://yenkha.com/courses/example/</guid>
       <description>&lt;h2 id=&#34;flexibility&#34;&gt;Flexibility&lt;/h2&gt;
 &lt;p&gt;This feature can be used for publishing content such as:&lt;/p&gt;
 &lt;ul&gt;

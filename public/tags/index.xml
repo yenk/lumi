@@ -2,121 +2,121 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on YenKha</title>
-    <link>http://localhost:37665/tags/</link>
+    <link>https://yenkha.com/tags/</link>
     <description>Recent content in Tags on YenKha</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright YenKha &amp;copy; {year}</copyright>
     <lastBuildDate>Sun, 23 Mar 2025 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="http://localhost:37665/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://yenkha.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AI</title>
-      <link>http://localhost:37665/tags/ai/</link>
+      <link>https://yenkha.com/tags/ai/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/ai/</guid>
+      <guid>https://yenkha.com/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Engineering</title>
-      <link>http://localhost:37665/tags/data-engineering/</link>
+      <link>https://yenkha.com/tags/data-engineering/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/data-engineering/</guid>
+      <guid>https://yenkha.com/tags/data-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Genomics</title>
-      <link>http://localhost:37665/tags/genomics/</link>
+      <link>https://yenkha.com/tags/genomics/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/genomics/</guid>
+      <guid>https://yenkha.com/tags/genomics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugging Face</title>
-      <link>http://localhost:37665/tags/hugging-face/</link>
+      <link>https://yenkha.com/tags/hugging-face/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/hugging-face/</guid>
+      <guid>https://yenkha.com/tags/hugging-face/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LLMs</title>
-      <link>http://localhost:37665/tags/llms/</link>
+      <link>https://yenkha.com/tags/llms/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/llms/</guid>
+      <guid>https://yenkha.com/tags/llms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenAI</title>
-      <link>http://localhost:37665/tags/openai/</link>
+      <link>https://yenkha.com/tags/openai/</link>
       <pubDate>Sun, 23 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/openai/</guid>
+      <guid>https://yenkha.com/tags/openai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Humanoids</title>
-      <link>http://localhost:37665/tags/humanoids/</link>
+      <link>https://yenkha.com/tags/humanoids/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/humanoids/</guid>
+      <guid>https://yenkha.com/tags/humanoids/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NLP</title>
-      <link>http://localhost:37665/tags/nlp/</link>
+      <link>https://yenkha.com/tags/nlp/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/nlp/</guid>
+      <guid>https://yenkha.com/tags/nlp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ollama</title>
-      <link>http://localhost:37665/tags/ollama/</link>
+      <link>https://yenkha.com/tags/ollama/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/ollama/</guid>
+      <guid>https://yenkha.com/tags/ollama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robotics</title>
-      <link>http://localhost:37665/tags/robotics/</link>
+      <link>https://yenkha.com/tags/robotics/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/robotics/</guid>
+      <guid>https://yenkha.com/tags/robotics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Wrangling</title>
-      <link>http://localhost:37665/tags/data-wrangling/</link>
+      <link>https://yenkha.com/tags/data-wrangling/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/data-wrangling/</guid>
+      <guid>https://yenkha.com/tags/data-wrangling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://localhost:37665/tags/python/</link>
+      <link>https://yenkha.com/tags/python/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:37665/tags/python/</guid>
+      <guid>https://yenkha.com/tags/python/</guid>
       <description></description>
     </item>
     
